@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 640" role="img" aria-labelledby="title desc">
+  <title id="title">图1：企业生产力与家庭生命力辩证循环的理论分析模型</title>
+  <desc id="desc">四象限模型，展示企业系统、商品市场、家庭系统、就业市场、金融市场、实物流和货币流之间的循环关系。</desc>
+  <defs>
+    <marker id="orangeArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f47b20"/>
+    </marker>
+    <marker id="greenArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#21a856"/>
+    </marker>
+    <style>
+      text{font-family:"Noto Serif SC","Source Han Serif SC","Songti SC",serif;fill:#111;font-weight:700}
+      .small{font-size:18px}.label{font-size:23px}.note{font-size:15px;font-weight:500;fill:#4b5b5f}.flowNote{font-size:14px;font-weight:600;fill:#21a856}.axis{stroke:#111;stroke-width:3}.orange{stroke:#f47b20;stroke-width:3.4;fill:none}.green{stroke:#21a856;stroke-width:3;fill:none}.box{fill:#fff;stroke:#111;stroke-width:2}.money{fill:#fff;stroke:#21a856;stroke-width:2}.greenText{fill:#21a856}.legend{font-size:17px;font-weight:500}
+    </style>
+  </defs>
+
+  <line class="axis" x1="35" y1="310" x2="825" y2="310"/>
+  <line class="axis" x1="430" y1="24" x2="430" y2="600"/>
+  <text class="small" x="405" y="70" writing-mode="tb">供给</text>
+  <text class="small" x="448" y="70" writing-mode="tb">产出</text>
+  <text class="small" x="405" y="524" writing-mode="tb">产出</text>
+  <text class="small" x="448" y="524" writing-mode="tb">供给</text>
+  <text class="small" x="47" y="300">需求</text>
+  <text class="small" x="47" y="336">投入</text>
+  <text class="small" x="800" y="300">投入</text>
+  <text class="small" x="800" y="336">需求</text>
+
+  <text class="label" x="82" y="114">II、商品市场</text>
+  <text class="label" x="636" y="108">I、企业系统</text>
+  <text class="note" x="636" y="136">生产要素投入与商品服务产出</text>
+  <text class="label" x="82" y="548">III、家庭系统</text>
+  <text class="small" x="96" y="576">生命力：幸福最大化</text>
+  <text class="note" x="96" y="602">生活资料消费与人口、人力资本再生产</text>
+  <text class="label" x="636" y="548">IV、就业市场</text>
+
+  <rect class="box" x="98" y="328" width="245" height="28"/>
+  <text class="small" x="111" y="349">人口+物质与精神生活资料</text>
+  <rect class="box" x="535" y="268" width="262" height="34"/>
+  <text class="small" x="541" y="291">非劳动力生产要素+雇佣劳动力</text>
+
+  <circle class="money" cx="430" cy="314" r="47"/>
+  <text class="label greenText" x="430" y="301" text-anchor="middle">金融</text>
+  <text class="label greenText" x="430" y="330" text-anchor="middle">市场</text>
+  <circle class="money" cx="315" cy="220" r="50"/>
+  <text class="small greenText" x="315" y="214" text-anchor="middle">企业</text>
+  <text class="small greenText" x="315" y="241" text-anchor="middle">存款</text>
+  <circle class="money" cx="600" cy="395" r="56"/>
+  <text class="small greenText" x="600" y="390" text-anchor="middle">家庭</text>
+  <text class="small greenText" x="600" y="418" text-anchor="middle">储蓄</text>
+
+  <path class="orange" d="M430 130
+    C265 130 155 210 155 310
+    C155 430 265 515 430 515
+    C595 515 705 430 705 310
+    C705 210 595 130 430 130"
+    marker-mid="url(#orangeArrow)" marker-end="url(#orangeArrow)"/>
+
+  <rect class="box" x="98" y="328" width="245" height="28"/>
+  <text class="small" x="111" y="349">人口+物质与精神生活资料</text>
+  <rect class="box" x="535" y="268" width="262" height="34"/>
+  <text class="small" x="541" y="291">非劳动力生产要素+雇佣劳动力</text>
+
+  <path class="green" d="M205 250 C240 215 267 204 315 220 C355 232 376 258 395 286" marker-end="url(#greenArrow)"/>
+  <path class="green" d="M468 287 C494 266 519 258 545 268" marker-end="url(#greenArrow)"/>
+  <text class="flowNote" x="206" y="222">商品销售回款</text>
+  <text class="flowNote" x="487" y="251">企业再投入</text>
+
+  <path class="green" d="M662 380 C615 356 548 350 468 342" marker-end="url(#greenArrow)"/>
+  <path class="green" d="M392 343 C356 358 350 368 326 356" marker-end="url(#greenArrow)"/>
+  <text class="flowNote" x="590" y="346">薪酬收入</text>
+  <text class="flowNote" x="334" y="388">家庭消费支出</text>
+
+  <line class="orange" x1="470" y1="582" x2="562" y2="582" marker-end="url(#orangeArrow)"/>
+  <text class="legend" x="584" y="588" fill="#f47b20">实物流：商品、服务与劳动力</text>
+  <line class="green" x1="470" y1="610" x2="562" y2="610" marker-end="url(#greenArrow)"/>
+  <text class="legend" x="584" y="616" fill="#21a856">货币流：收入、支出、储蓄与存款</text>
+</svg>

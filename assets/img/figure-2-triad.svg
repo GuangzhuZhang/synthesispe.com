@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img" aria-labelledby="title desc">
+  <title id="title">图2：家庭权利、企业权利、政府权力“大三权”非对称配置与制衡机制理论分析模型</title>
+  <desc id="desc">三维示意模型，政府位于家庭、企业与市场平面之上，通过财政税收、货币政策、公共产品等关系连接家庭系统与企业系统。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#333"/>
+    </marker>
+    <style>
+      text{font-family:"Noto Serif SC","Source Han Serif SC","Songti SC",serif;fill:#111;font-weight:700}
+      .small{font-size:16px}.tiny{font-size:14px}.roman{font-size:17px;fill:#333}.legendText{font-size:13px;font-weight:600;fill:#333}.note{font-size:14px;font-weight:500;fill:#4b5b5f}.axis{stroke:#111;stroke-width:2.2}.orangeCycle{stroke:#f47b20;stroke-width:2.4;fill:none}.greenLine{stroke:#21a856;stroke-width:3;fill:none}.taxLine{stroke:#7b4cc2;stroke-width:2.6;fill:none;stroke-linecap:round}.fiscalLine{stroke:#d94848;stroke-width:2.6;fill:none;stroke-linecap:round}.policyLink{stroke:#111;stroke-width:2.1;fill:none;stroke-linecap:round}.guideLine{stroke:#111;stroke-width:1.8;fill:none}.cubeEdge{stroke:#333;stroke-width:1.2;fill:none}.market{stroke:#333;stroke-width:1.4}.commodityMarket{fill:#dceeff}.employmentMarket{fill:#dceeff}.financeMarket{fill:#e1f4df}.govTop,.govSide,.govFace,.familyTop,.familySide,.familyFace,.enterpriseTop,.enterpriseSide,.enterpriseFace{stroke:#333;stroke-width:1.4}.govTop{fill:#efe6ff}.govSide{fill:#ded0f5}.govFace{fill:#f7f0ff}.familyTop{fill:#dceeff}.familySide{fill:#c4dff4}.familyFace{fill:#eef7ff}.enterpriseTop{fill:#dceeff}.enterpriseSide{fill:#c4dff4}.enterpriseFace{fill:#eef7ff}
+    </style>
+  </defs>
+
+  <line class="axis" x1="24" y1="325" x2="841" y2="325"/>
+  <line class="axis" x1="108" y1="582" x2="708" y2="73"/>
+  <text class="small" x="76" y="317">需求</text>
+  <text class="small" x="76" y="351">投入</text>
+  <text class="small" x="764" y="317">投入</text>
+  <text class="small" x="764" y="351">需求</text>
+  <text class="small" x="610" y="116">供给</text>
+  <text class="small" x="672" y="124">产出</text>
+  <text class="small" x="112" y="548">产出</text>
+  <text class="small" x="160" y="552">供给</text>
+
+  <ellipse class="orangeCycle" cx="411" cy="333" rx="260" ry="98"/>
+  <ellipse class="market commodityMarket" cx="310" cy="246" rx="78" ry="24"/>
+  <text class="tiny" x="271" y="251">商品市场</text>
+  <ellipse class="market employmentMarket" cx="516" cy="424" rx="78" ry="24"/>
+  <text class="tiny" x="484" y="429">就业市场</text>
+  <ellipse class="market financeMarket" cx="411" cy="325" rx="68" ry="26"/>
+  <text class="tiny" x="379" y="330">金融市场</text>
+  <text class="roman" x="468" y="305">I</text>
+  <text class="roman" x="350" y="305">II</text>
+  <text class="roman" x="350" y="360">III</text>
+  <text class="roman" x="456" y="360">IV</text>
+
+  <g transform="translate(372 50)">
+    <polygon class="govTop" points="0,16 18,0 78,0 60,16"/>
+    <polygon class="govSide" points="60,16 78,0 78,50 60,66"/>
+    <polygon class="govFace" points="0,16 60,16 60,66 0,66"/>
+    <polyline class="cubeEdge" points="0,16 18,0 78,0 78,50 60,66 0,66 0,16 60,16 78,0"/>
+    <line class="cubeEdge" x1="60" y1="16" x2="60" y2="66"/>
+  </g>
+  <text class="tiny" x="462" y="70">政府系统</text>
+  <text class="tiny" x="462" y="94">产出政策和公共产品</text>
+
+  <line class="greenLine" x1="411" y1="116" x2="411" y2="325"/>
+  <path class="policyLink" d="M411 116 C355 142 284 196 266 246"/>
+  <path class="policyLink" d="M411 116 C474 190 512 310 516 424"/>
+
+  <g transform="translate(154 370)">
+    <polygon class="familyTop" points="0,16 18,0 78,0 60,16"/>
+    <polygon class="familySide" points="60,16 78,0 78,50 60,66"/>
+    <polygon class="familyFace" points="0,16 60,16 60,66 0,66"/>
+    <polyline class="cubeEdge" points="0,16 18,0 78,0 78,50 60,66 0,66 0,16 60,16 78,0"/>
+    <line class="cubeEdge" x1="60" y1="16" x2="60" y2="66"/>
+  </g>
+  <line class="taxLine" x1="405" y1="116" x2="185" y2="378"/>
+  <line class="fiscalLine" x1="417" y1="116" x2="197" y2="378"/>
+  <text class="tiny" x="58" y="398">家庭系统</text>
+  <text class="tiny" x="24" y="424">产出人口人力资源</text>
+
+  <g transform="translate(586 240)">
+    <polygon class="enterpriseTop" points="0,16 18,0 78,0 60,16"/>
+    <polygon class="enterpriseSide" points="60,16 78,0 78,50 60,66"/>
+    <polygon class="enterpriseFace" points="0,16 60,16 60,66 0,66"/>
+    <polyline class="cubeEdge" points="0,16 18,0 78,0 78,50 60,66 0,66 0,16 60,16 78,0"/>
+    <line class="cubeEdge" x1="60" y1="16" x2="60" y2="66"/>
+  </g>
+  <line class="taxLine" x1="405" y1="116" x2="619" y2="248"/>
+  <line class="fiscalLine" x1="417" y1="116" x2="631" y2="248"/>
+  <text class="tiny" x="696" y="258">企业系统</text>
+  <text class="tiny" x="676" y="284">产出商品和服务</text>
+
+  <g aria-label="图例">
+    <line class="greenLine" x1="598" y1="505" x2="642" y2="505"/>
+    <text class="legendText" x="654" y="510">货币政策</text>
+    <line class="taxLine" x1="598" y1="528" x2="642" y2="528"/>
+    <text class="legendText" x="654" y="533">税收政策</text>
+    <line class="fiscalLine" x1="598" y1="551" x2="642" y2="551"/>
+    <text class="legendText" x="654" y="556">财政政策</text>
+    <line class="policyLink" x1="598" y1="574" x2="642" y2="574"/>
+    <text class="legendText" x="654" y="579">市场监管</text>
+    <line class="orangeCycle" x1="598" y1="597" x2="642" y2="597"/>
+    <text class="legendText" x="654" y="602">两种生产实物流</text>
+  </g>
+</svg>
