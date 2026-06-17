@@ -29,8 +29,7 @@
   <text class="label" x="636" y="108">I、企业系统</text>
   <text class="note" x="636" y="136">生产要素投入与商品服务产出</text>
   <text class="label" x="82" y="548">III、家庭系统</text>
-  <text class="small" x="96" y="576">生命力：幸福最大化</text>
-  <text class="note" x="96" y="602">生活资料消费与人口、人力资本再生产</text>
+  <text class="note" x="96" y="578">生活资料消费与人口、人力资本再生产</text>
   <text class="label" x="636" y="548">IV、就业市场</text>
 
   <rect class="box" x="98" y="328" width="245" height="28"/>
