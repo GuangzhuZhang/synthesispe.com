@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 700" role="img" aria-labelledby="title desc">
+  <title id="title">Diagram 2: The Grand Tripartite — Asymmetric Balance among Family Rights, Enterprise Rights, and State Power</title>
+  <desc id="desc">A three-dimensional schematic model showing state power above the household-enterprise-market plane, connected through fiscal policy, taxation, monetary policy, public goods, and market regulation.</desc>
+  <defs>
+    <style>
+      text{font-family:Georgia,"Times New Roman",serif;fill:#111;font-weight:700}
+      .small{font-size:15px}.tiny{font-size:13px}.roman{font-size:17px;fill:#333}.legendText{font-size:13px;font-weight:600;fill:#333}
+      .axis{stroke:#111;stroke-width:2.2}.orangeCycle{stroke:#f47b20;stroke-width:2.4;fill:none}.greenLine{stroke:#21a856;stroke-width:3;fill:none}
+      .taxLine{stroke:#7b4cc2;stroke-width:2.6;fill:none;stroke-linecap:round}.fiscalLine{stroke:#d94848;stroke-width:2.6;fill:none;stroke-linecap:round}.policyLink{stroke:#111;stroke-width:2.1;fill:none;stroke-linecap:round}
+      .cubeEdge{stroke:#333;stroke-width:1.2;fill:none}.market{stroke:#333;stroke-width:1.4}
+      .commodityMarket{fill:#dceeff}.employmentMarket{fill:#dceeff}.financeMarket{fill:#e1f4df}
+      .govTop,.govSide,.govFace,.familyTop,.familySide,.familyFace,.enterpriseTop,.enterpriseSide,.enterpriseFace{stroke:#333;stroke-width:1.4}
+      .govTop{fill:#efe6ff}.govSide{fill:#ded0f5}.govFace{fill:#f7f0ff}.familyTop{fill:#dceeff}.familySide{fill:#c4dff4}.familyFace{fill:#eef7ff}.enterpriseTop{fill:#dceeff}.enterpriseSide{fill:#c4dff4}.enterpriseFace{fill:#eef7ff}
+    </style>
+  </defs>
+
+  <line class="axis" x1="24" y1="325" x2="875" y2="325"/>
+  <line class="axis" x1="108" y1="582" x2="708" y2="73"/>
+  <text class="small" x="62" y="316">Demand</text>
+  <text class="small" x="70" y="350">Input</text>
+  <text class="small" x="834" y="316">Input</text>
+  <text class="small" x="812" y="350">Demand</text>
+  <text class="small" x="602" y="116">Supply</text>
+  <text class="small" x="668" y="124">Output</text>
+  <text class="small" x="96" y="548">Output</text>
+  <text class="small" x="176" y="558">Supply</text>
+
+  <ellipse class="orangeCycle" cx="411" cy="333" rx="260" ry="98"/>
+  <ellipse class="market commodityMarket" cx="302" cy="242" rx="96" ry="27"/>
+  <text class="tiny" x="244" y="247">Commodity Market</text>
+  <ellipse class="market employmentMarket" cx="528" cy="428" rx="86" ry="26"/>
+  <text class="tiny" x="490" y="433">Labor Market</text>
+  <ellipse class="market financeMarket" cx="411" cy="325" rx="82" ry="28"/>
+  <text class="tiny" x="362" y="330">Financial Market</text>
+  <text class="roman" x="468" y="305">I</text>
+  <text class="roman" x="350" y="305">II</text>
+  <text class="roman" x="350" y="360">III</text>
+  <text class="roman" x="456" y="360">IV</text>
+
+  <g transform="translate(372 50)">
+    <polygon class="govTop" points="0,16 18,0 78,0 60,16"/>
+    <polygon class="govSide" points="60,16 78,0 78,50 60,66"/>
+    <polygon class="govFace" points="0,16 60,16 60,66 0,66"/>
+    <polyline class="cubeEdge" points="0,16 18,0 78,0 78,50 60,66 0,66 0,16 60,16 78,0"/>
+    <line class="cubeEdge" x1="60" y1="16" x2="60" y2="66"/>
+  </g>
+  <text class="tiny" x="462" y="72">State System</text>
+  <text class="tiny" x="462" y="95">Policies and public goods</text>
+
+  <line class="greenLine" x1="411" y1="116" x2="411" y2="325"/>
+  <path class="policyLink" d="M411 116 C354 142 282 194 260 242"/>
+  <path class="policyLink" d="M411 116 C474 190 520 310 528 428"/>
+
+  <g transform="translate(154 370)">
+    <polygon class="familyTop" points="0,16 18,0 78,0 60,16"/>
+    <polygon class="familySide" points="60,16 78,0 78,50 60,66"/>
+    <polygon class="familyFace" points="0,16 60,16 60,66 0,66"/>
+    <polyline class="cubeEdge" points="0,16 18,0 78,0 78,50 60,66 0,66 0,16 60,16 78,0"/>
+    <line class="cubeEdge" x1="60" y1="16" x2="60" y2="66"/>
+  </g>
+  <line class="taxLine" x1="405" y1="116" x2="185" y2="378"/>
+  <line class="fiscalLine" x1="417" y1="116" x2="197" y2="378"/>
+  <text class="tiny" x="34" y="454">Family-Household System</text>
+  <text class="tiny" x="18" y="478">Population and human resources</text>
+
+  <g transform="translate(586 240)">
+    <polygon class="enterpriseTop" points="0,16 18,0 78,0 60,16"/>
+    <polygon class="enterpriseSide" points="60,16 78,0 78,50 60,66"/>
+    <polygon class="enterpriseFace" points="0,16 60,16 60,66 0,66"/>
+    <polyline class="cubeEdge" points="0,16 18,0 78,0 78,50 60,66 0,66 0,16 60,16 78,0"/>
+    <line class="cubeEdge" x1="60" y1="16" x2="60" y2="66"/>
+  </g>
+  <line class="taxLine" x1="405" y1="116" x2="619" y2="248"/>
+  <line class="fiscalLine" x1="417" y1="116" x2="631" y2="248"/>
+  <text class="tiny" x="708" y="260">Enterprise System</text>
+  <text class="tiny" x="708" y="284">Goods and services output</text>
+
+  <g aria-label="Legend">
+    <line class="greenLine" x1="620" y1="512" x2="664" y2="512"/>
+    <text class="legendText" x="676" y="517">Monetary policy</text>
+    <line class="taxLine" x1="620" y1="542" x2="664" y2="542"/>
+    <text class="legendText" x="676" y="547">Tax policy</text>
+    <line class="fiscalLine" x1="620" y1="572" x2="664" y2="572"/>
+    <text class="legendText" x="676" y="577">Fiscal policy</text>
+    <line class="policyLink" x1="620" y1="602" x2="664" y2="602"/>
+    <text class="legendText" x="676" y="607">Market regulation</text>
+    <line class="orangeCycle" x1="620" y1="632" x2="664" y2="632"/>
+    <text class="legendText" x="676" y="637">Real flow of the two productions</text>
+  </g>
+</svg>

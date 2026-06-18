@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 670" role="img" aria-labelledby="title desc">
+  <title id="title">Diagram 1: Dialectical Cycle of Enterprise Productive Force and Family Life-Reproduction Capacity</title>
+  <desc id="desc">A four-quadrant model showing the cycle among enterprises, commodity markets, households, labor markets, financial markets, real flows, and monetary flows.</desc>
+  <defs>
+    <marker id="orangeArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f47b20"/>
+    </marker>
+    <marker id="greenArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#21a856"/>
+    </marker>
+    <style>
+      text{font-family:Georgia,"Times New Roman",serif;fill:#111;font-weight:700}
+      .axis{stroke:#111;stroke-width:3}.orange{stroke:#f47b20;stroke-width:3.4;fill:none}.green{stroke:#21a856;stroke-width:3;fill:none}
+      .label{font-size:20px}.small{font-size:15px}.note{font-size:13px;font-weight:500;fill:#4b5b5f}.flowNote{font-size:13px;font-weight:600;fill:#21a856}
+      .box{fill:#fff;stroke:#111;stroke-width:2}.money{fill:#fff;stroke:#21a856;stroke-width:2}.greenText{fill:#21a856}.legend{font-size:15px;font-weight:500}
+    </style>
+  </defs>
+
+  <line class="axis" x1="35" y1="310" x2="855" y2="310"/>
+  <line class="axis" x1="430" y1="24" x2="430" y2="622"/>
+  <text class="small" x="374" y="58">Supply</text>
+  <text class="small" x="438" y="58">Output</text>
+  <text class="small" x="372" y="620">Output</text>
+  <text class="small" x="444" y="626">Supply</text>
+  <text class="small" x="45" y="298">Demand</text>
+  <text class="small" x="45" y="338">Input</text>
+  <text class="small" x="824" y="298">Input</text>
+  <text class="small" x="804" y="338">Demand</text>
+
+  <text class="label" x="82" y="112">II. Commodity Market</text>
+  <text class="label" x="636" y="108">I. Enterprise System</text>
+  <text class="note" x="636" y="132">Factor inputs / goods output</text>
+  <text class="label" x="82" y="548">III. Family-Household System</text>
+  <text class="note" x="96" y="572">Consumption and human-capital reproduction</text>
+  <text class="label" x="636" y="548">IV. Labor Market</text>
+
+  <rect class="box" x="98" y="328" width="250" height="50"/>
+  <text class="small" x="111" y="350">Population +</text>
+  <text class="small" x="111" y="369">material/cultural goods</text>
+  <rect class="box" x="535" y="252" width="245" height="50"/>
+  <text class="small" x="545" y="272">Non-labor factors</text>
+  <text class="small" x="545" y="290">+ hired labor</text>
+
+  <circle class="money" cx="430" cy="314" r="50"/>
+  <text class="label greenText" x="430" y="310" text-anchor="middle">Financial</text>
+  <text class="label greenText" x="430" y="334" text-anchor="middle">Market</text>
+  <circle class="money" cx="315" cy="220" r="54"/>
+  <text class="small greenText" x="315" y="216" text-anchor="middle">Enterprise</text>
+  <text class="small greenText" x="315" y="238" text-anchor="middle">Deposits</text>
+  <circle class="money" cx="600" cy="395" r="58"/>
+  <text class="small greenText" x="600" y="392" text-anchor="middle">Household</text>
+  <text class="small greenText" x="600" y="414" text-anchor="middle">Savings</text>
+
+  <path class="orange" d="M430 130
+    C265 130 155 210 155 310
+    C155 430 265 515 430 515
+    C595 515 705 430 705 310
+    C705 210 595 130 430 130"
+    marker-mid="url(#orangeArrow)" marker-end="url(#orangeArrow)"/>
+
+  <rect class="box" x="98" y="328" width="250" height="50"/>
+  <text class="small" x="111" y="350">Population +</text>
+  <text class="small" x="111" y="369">material/cultural goods</text>
+  <rect class="box" x="535" y="252" width="245" height="50"/>
+  <text class="small" x="545" y="272">Non-labor factors</text>
+  <text class="small" x="545" y="290">+ hired labor</text>
+
+  <path class="green" d="M205 250 C240 215 267 204 315 220 C355 232 376 258 395 286" marker-end="url(#greenArrow)"/>
+  <path class="green" d="M468 287 C494 266 519 258 545 268" marker-end="url(#greenArrow)"/>
+  <text class="flowNote" x="190" y="224">Sales revenue</text>
+  <text class="flowNote" x="492" y="250">Reinvestment</text>
+
+  <path class="green" d="M662 380 C615 356 548 350 468 342" marker-end="url(#greenArrow)"/>
+  <path class="green" d="M392 343 C356 358 350 368 326 356" marker-end="url(#greenArrow)"/>
+  <text class="flowNote" x="616" y="348">Wage income</text>
+  <text class="flowNote" x="314" y="388">Consumption</text>
+
+  <line class="orange" x1="470" y1="582" x2="562" y2="582" marker-end="url(#orangeArrow)"/>
+  <text class="legend" x="584" y="588" fill="#f47b20">Real flow: goods, services, and labor</text>
+  <line class="green" x1="470" y1="610" x2="562" y2="610" marker-end="url(#greenArrow)"/>
+  <text class="legend" x="584" y="616" fill="#21a856">Monetary flow: income, spending, savings, deposits</text>
+</svg>
