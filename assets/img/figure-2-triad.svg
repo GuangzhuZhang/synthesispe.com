@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img" aria-labelledby="title desc">
-  <title id="title">图2：家庭权利、企业权利、政府权力“大三权”非对称配置与制衡机制理论分析模型</title>
-  <desc id="desc">三维示意模型，政府位于家庭、企业与市场平面之上，通过财政税收、货币政策、公共产品等关系连接家庭系统与企业系统。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 660" role="img" aria-labelledby="title desc">
+  <title id="title">图2：家庭权利、企业权利、政府权力“大三权”非对称配置与制衡机制理论分析模型 / The Grand Tripartite: Asymmetric Balance among Family Rights, Enterprise Rights, and State Power</title>
+  <desc id="desc">三维示意模型，政府位于家庭、企业与市场平面之上，通过财政税收、货币政策、公共产品等关系连接家庭系统与企业系统。A three-dimensional schematic model showing state power above the household-enterprise-market plane, connected through fiscal policy, taxation, monetary policy, public goods, and market regulation.</desc>
   <defs>
     <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L0,6 L8,3 z" fill="#333"/>
     </marker>
     <style>
       text{font-family:"Noto Serif SC","Source Han Serif SC","Songti SC",serif;fill:#111;font-weight:700}
-      .small{font-size:16px}.tiny{font-size:14px}.roman{font-size:17px;fill:#333}.legendText{font-size:13px;font-weight:600;fill:#333}.note{font-size:14px;font-weight:500;fill:#4b5b5f}.axis{stroke:#111;stroke-width:2.2}.orangeCycle{stroke:#f47b20;stroke-width:2.4;fill:none}.greenLine{stroke:#21a856;stroke-width:3;fill:none}.taxLine{stroke:#7b4cc2;stroke-width:2.6;fill:none;stroke-linecap:round}.fiscalLine{stroke:#d94848;stroke-width:2.6;fill:none;stroke-linecap:round}.policyLink{stroke:#111;stroke-width:2.1;fill:none;stroke-linecap:round}.guideLine{stroke:#111;stroke-width:1.8;fill:none}.cubeEdge{stroke:#333;stroke-width:1.2;fill:none}.market{stroke:#333;stroke-width:1.4}.commodityMarket{fill:#dceeff}.employmentMarket{fill:#dceeff}.financeMarket{fill:#e1f4df}.govTop,.govSide,.govFace,.familyTop,.familySide,.familyFace,.enterpriseTop,.enterpriseSide,.enterpriseFace{stroke:#333;stroke-width:1.4}.govTop{fill:#efe6ff}.govSide{fill:#ded0f5}.govFace{fill:#f7f0ff}.familyTop{fill:#dceeff}.familySide{fill:#c4dff4}.familyFace{fill:#eef7ff}.enterpriseTop{fill:#dceeff}.enterpriseSide{fill:#c4dff4}.enterpriseFace{fill:#eef7ff}
+      .small{font-size:16px}.tiny{font-size:14px}.roman{font-size:17px;fill:#333}.legendText{font-size:13px;font-weight:600;fill:#333}.note{font-size:14px;font-weight:500;fill:#4b5b5f}.en{font-family:Georgia,"Times New Roman",serif;font-size:9.5px;font-weight:500;fill:#5e6a6f}.enLabel{font-family:Georgia,"Times New Roman",serif;font-size:10.5px;font-weight:600;fill:#5e6a6f}.axis{stroke:#111;stroke-width:2.2}.orangeCycle{stroke:#f47b20;stroke-width:2.4;fill:none}.greenLine{stroke:#21a856;stroke-width:3;fill:none}.taxLine{stroke:#7b4cc2;stroke-width:2.6;fill:none;stroke-linecap:round}.fiscalLine{stroke:#d94848;stroke-width:2.6;fill:none;stroke-linecap:round}.policyLink{stroke:#111;stroke-width:2.1;fill:none;stroke-linecap:round}.guideLine{stroke:#111;stroke-width:1.8;fill:none}.cubeEdge{stroke:#333;stroke-width:1.2;fill:none}.market{stroke:#333;stroke-width:1.4}.commodityMarket{fill:#dceeff}.employmentMarket{fill:#dceeff}.financeMarket{fill:#e1f4df}.govTop,.govSide,.govFace,.familyTop,.familySide,.familyFace,.enterpriseTop,.enterpriseSide,.enterpriseFace{stroke:#333;stroke-width:1.4}.govTop{fill:#efe6ff}.govSide{fill:#ded0f5}.govFace{fill:#f7f0ff}.familyTop{fill:#dceeff}.familySide{fill:#c4dff4}.familyFace{fill:#eef7ff}.enterpriseTop{fill:#dceeff}.enterpriseSide{fill:#c4dff4}.enterpriseFace{fill:#eef7ff}
     </style>
   </defs>
 
@@ -21,14 +21,25 @@
   <text class="small" x="672" y="124">产出</text>
   <text class="small" x="112" y="548">产出</text>
   <text class="small" x="160" y="552">供给</text>
+  <text class="en" x="74" y="299">Demand</text>
+  <text class="en" x="74" y="369">Input</text>
+  <text class="en" x="758" y="299">Input</text>
+  <text class="en" x="758" y="369">Demand</text>
+  <text class="en" x="608" y="98">Supply</text>
+  <text class="en" x="670" y="106">Output</text>
+  <text class="en" x="110" y="566">Output</text>
+  <text class="en" x="158" y="570">Supply</text>
 
   <ellipse class="orangeCycle" cx="411" cy="333" rx="260" ry="98"/>
   <ellipse class="market commodityMarket" cx="310" cy="246" rx="78" ry="24"/>
   <text class="tiny" x="271" y="251">商品市场</text>
+  <text class="enLabel" x="268" y="266">Commodity Market</text>
   <ellipse class="market employmentMarket" cx="516" cy="424" rx="78" ry="24"/>
   <text class="tiny" x="484" y="429">就业市场</text>
+  <text class="enLabel" x="485" y="444">Labor Market</text>
   <ellipse class="market financeMarket" cx="411" cy="325" rx="68" ry="26"/>
   <text class="tiny" x="379" y="330">金融市场</text>
+  <text class="enLabel" x="378" y="345">Financial Market</text>
   <text class="roman" x="468" y="305">I</text>
   <text class="roman" x="350" y="305">II</text>
   <text class="roman" x="350" y="360">III</text>
@@ -43,6 +54,8 @@
   </g>
   <text class="tiny" x="462" y="70">政府系统</text>
   <text class="tiny" x="462" y="94">产出政策和公共产品</text>
+  <text class="enLabel" x="462" y="84">State System</text>
+  <text class="en" x="462" y="109">Policies and public goods</text>
 
   <line class="greenLine" x1="411" y1="116" x2="411" y2="325"/>
   <path class="policyLink" d="M411 116 C355 142 284 196 266 246"/>
@@ -59,6 +72,8 @@
   <line class="fiscalLine" x1="417" y1="116" x2="197" y2="378"/>
   <text class="tiny" x="58" y="398">家庭系统</text>
   <text class="tiny" x="24" y="424">产出人口人力资源</text>
+  <text class="enLabel" x="58" y="414">Family-Household System</text>
+  <text class="en" x="24" y="439">Population and human resources</text>
 
   <g transform="translate(586 240)">
     <polygon class="enterpriseTop" points="0,16 18,0 78,0 60,16"/>
@@ -71,17 +86,24 @@
   <line class="fiscalLine" x1="417" y1="116" x2="631" y2="248"/>
   <text class="tiny" x="696" y="258">企业系统</text>
   <text class="tiny" x="676" y="284">产出商品和服务</text>
+  <text class="enLabel" x="696" y="274">Enterprise System</text>
+  <text class="en" x="676" y="299">Goods and services output</text>
 
   <g aria-label="图例">
-    <line class="greenLine" x1="598" y1="505" x2="642" y2="505"/>
-    <text class="legendText" x="654" y="510">货币政策</text>
-    <line class="taxLine" x1="598" y1="528" x2="642" y2="528"/>
-    <text class="legendText" x="654" y="533">税收政策</text>
-    <line class="fiscalLine" x1="598" y1="551" x2="642" y2="551"/>
-    <text class="legendText" x="654" y="556">财政政策</text>
-    <line class="policyLink" x1="598" y1="574" x2="642" y2="574"/>
-    <text class="legendText" x="654" y="579">市场监管</text>
-    <line class="orangeCycle" x1="598" y1="597" x2="642" y2="597"/>
-    <text class="legendText" x="654" y="602">两种生产实物流</text>
+    <line class="greenLine" x1="598" y1="498" x2="642" y2="498"/>
+    <text class="legendText" x="654" y="502">货币政策</text>
+    <text class="en" x="654" y="516">Monetary policy</text>
+    <line class="taxLine" x1="598" y1="530" x2="642" y2="530"/>
+    <text class="legendText" x="654" y="534">税收政策</text>
+    <text class="en" x="654" y="548">Tax policy</text>
+    <line class="fiscalLine" x1="598" y1="562" x2="642" y2="562"/>
+    <text class="legendText" x="654" y="566">财政政策</text>
+    <text class="en" x="654" y="580">Fiscal policy</text>
+    <line class="policyLink" x1="598" y1="594" x2="642" y2="594"/>
+    <text class="legendText" x="654" y="598">市场监管</text>
+    <text class="en" x="654" y="612">Market regulation</text>
+    <line class="orangeCycle" x1="598" y1="626" x2="642" y2="626"/>
+    <text class="legendText" x="654" y="630">两种生产实物流</text>
+    <text class="en" x="654" y="644">Real flow of the two productions</text>
   </g>
 </svg>
