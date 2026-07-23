@@ -80,7 +80,8 @@ footer{background:#1a1a1a;padding:2.5rem 2rem}
 .footer-right a:hover{color:#aaa}
 @media(max-width:768px){
   .diagrams-grid,.articles-grid{grid-template-columns:1fr}
-  .nav-links{gap:1rem}
+  .nav-inner{height:auto;min-height:60px;padding:8px 1rem;gap:.75rem;flex-wrap:wrap}
+  .nav-links{width:100%;gap:.75rem;flex-wrap:wrap;justify-content:center}
 }
 
 
