@@ -1,0 +1,65 @@
+<svg viewBox="0 0 920 660" xmlns="http://www.w3.org/2000/svg" style="background:#faf9f7" font-family="&quot;Noto Serif SC&quot;, &quot;Noto Serif CJK SC&quot;, &quot;Source Han Serif SC&quot;, &quot;Songti SC&quot;, &quot;SimSun&quot;, Georgia, serif">
+  <defs>
+    <marker id="mG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker>
+    <marker id="mB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a4a7a"/></marker>
+    <marker id="mO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8b6914"/></marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="660" fill="#faf9f7"/>
+
+  <rect x="330" y="30" width="260" height="72" rx="6" fill="#ffffff" stroke="#8b6914" stroke-width="2"/>
+  <text x="460" y="58" font-size="17" font-weight="bold" fill="#8b6914" text-anchor="middle">AI能力 × 制度结构</text>
+  <text x="460" y="82" font-size="11.5" fill="#8b6914" text-anchor="middle">技术划定可能性边界，制度决定激励、分配与责任</text>
+  <text x="460" y="122" font-size="11.5" fill="#6b6b6b" text-anchor="middle">同一代技术，不同制度安排，走向不同的风险倾向</text>
+
+  <path d="M 400 104 Q 290 132 240 166" fill="none" stroke="#8a8a8a" stroke-width="2" marker-end="url(#mG)"/>
+  <path d="M 520 104 Q 630 132 680 166" fill="none" stroke="#1a4a7a" stroke-width="2" marker-end="url(#mB)"/>
+
+  <!-- 左 -->
+  <rect x="86" y="172" width="308" height="104" rx="6" fill="#ffffff" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="240" y="199" font-size="16" font-weight="bold" fill="#5f5f5f" text-anchor="middle">二元对立结构</text>
+  <text x="240" y="224" font-size="12" fill="#8a8a8a" text-anchor="middle">替代型技术路线 · 零和竞赛</text>
+  <text x="240" y="245" font-size="12" fill="#8a8a8a" text-anchor="middle">投资端自循环 · 一极独大</text>
+  <text x="240" y="266" font-size="12" fill="#8a8a8a" text-anchor="middle">家庭一极缺乏组织能力</text>
+
+  <line x1="240" y1="276" x2="240" y2="320" stroke="#8a8a8a" stroke-width="2" marker-end="url(#mG)"/>
+  <text x="240" y="345" font-size="13" fill="#5f5f5f" text-anchor="middle">放大失衡：生产力碾压生命力</text>
+  <line x1="240" y1="357" x2="240" y2="400" stroke="#8a8a8a" stroke-width="2" marker-end="url(#mG)"/>
+
+  <rect x="86" y="406" width="308" height="92" rx="6" fill="#f0eeea" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="240" y="434" font-size="15" font-weight="bold" fill="#5f5f5f" text-anchor="middle">风险倾向：灾难路径</text>
+  <text x="240" y="458" font-size="12" fill="#8a8a8a" text-anchor="middle">"豢养" 或 "失控"</text>
+  <text x="240" y="480" font-size="11" fill="#8a8a8a" text-anchor="middle">（《AI灾难》《奇点之后》）</text>
+
+  <!-- 右 -->
+  <rect x="526" y="172" width="308" height="104" rx="6" fill="#ffffff" stroke="#1a4a7a" stroke-width="2"/>
+  <text x="680" y="199" font-size="16" font-weight="bold" fill="#1a4a7a" text-anchor="middle">三元和合结构</text>
+  <text x="680" y="224" font-size="12" fill="#1a4a7a" text-anchor="middle">互补型技术路线 · 互利合作</text>
+  <text x="680" y="245" font-size="12" fill="#1a4a7a" text-anchor="middle">按需分配 · "大三权"再平衡</text>
+  <text x="680" y="266" font-size="11.5" fill="#8b6914" text-anchor="middle">前提：家庭一极具实质组织能力</text>
+
+  <line x1="680" y1="276" x2="680" y2="320" stroke="#1a4a7a" stroke-width="2" marker-end="url(#mB)"/>
+  <text x="680" y="345" font-size="13" fill="#1a4a7a" text-anchor="middle">放大均衡：生命力与生产力再平衡</text>
+  <line x1="680" y1="357" x2="680" y2="400" stroke="#1a4a7a" stroke-width="2" marker-end="url(#mB)"/>
+
+  <rect x="526" y="406" width="308" height="92" rx="6" fill="#ffffff" stroke="#1a4a7a" stroke-width="2"/>
+  <text x="680" y="434" font-size="15" font-weight="bold" fill="#1a4a7a" text-anchor="middle">可能前景：共生与主权</text>
+  <text x="680" y="458" font-size="12" fill="#1a4a7a" text-anchor="middle">人机互补 · 三赢共富</text>
+  <text x="680" y="480" font-size="11" fill="#6b6b6b" text-anchor="middle">（《奇点之后》《按需分配》）</text>
+
+  <!-- 退化路径:右→左 -->
+  <path d="M 526 302 Q 460 258 394 302" fill="none" stroke="#8b6914" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#mO)"/>
+  <rect x="352" y="306" width="216" height="46" rx="4" fill="#faf9f7" stroke="#8b6914" stroke-width="1.1"/>
+  <text x="460" y="325" font-size="11.5" font-weight="bold" fill="#8b6914" text-anchor="middle">退化路径：条件不满足时</text>
+  <text x="460" y="343" font-size="11" fill="#8b6914" text-anchor="middle">政企合谋 · 第三方被俘获 · 家庭形式参与</text>
+
+  <!-- 观察指标 -->
+  <line x1="120" y1="536" x2="800" y2="536" stroke="#8b6914" stroke-width="1"/>
+  <text x="460" y="562" font-size="14" font-weight="bold" fill="#8b6914" text-anchor="middle">价值判据：生命力高于生产力</text>
+  <text x="460" y="586" font-size="11.5" fill="#6b6b6b" text-anchor="middle">三组可观察指标：任务与就业 · 家庭收入与时间 · 权利与治理</text>
+  <text x="460" y="606" font-size="11" fill="#8a8a8a" text-anchor="middle">（生育率等人口指标为长期结果变量，不作即时判据）</text>
+
+  <text x="460" y="640" font-size="15" font-weight="bold" fill="#1a4a7a" text-anchor="middle">图A-4-1　AI能力与制度结构：两种倾向，一条退化路径</text>
+</svg>

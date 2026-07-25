@@ -1,0 +1,80 @@
+<svg viewBox="0 0 920 620" xmlns="http://www.w3.org/2000/svg" font-family="Noto Serif SC, Noto Serif CJK SC, Georgia, serif">
+  <defs>
+    <marker id="gA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/>
+    </marker>
+    <marker id="bA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a4a7a"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="620" fill="#faf9f7"/>
+  <line x1="460" y1="56" x2="460" y2="520" stroke="#8b6914" stroke-width="1" stroke-dasharray="2,5"/>
+
+  <text x="230" y="78" font-size="19" font-weight="bold" fill="#5f5f5f" text-anchor="middle">二元化坍缩</text>
+  <text x="230" y="100" font-size="12" fill="#8a8a8a" text-anchor="middle">第三方被降为被动对象，结构退回两极</text>
+
+  <rect x="88" y="130" width="128" height="52" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="152" y="152" font-size="15" font-weight="bold" fill="#5f5f5f" text-anchor="middle">政　府</text>
+  <text x="152" y="171" font-size="10.5" fill="#8a8a8a" text-anchor="middle">公共产品生产</text>
+
+  <rect x="246" y="130" width="128" height="52" rx="4" fill="#ffffff" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="310" y="152" font-size="15" font-weight="bold" fill="#5f5f5f" text-anchor="middle">企　业</text>
+  <text x="310" y="171" font-size="10.5" fill="#8a8a8a" text-anchor="middle">产品生产</text>
+
+  <text x="230" y="122" font-size="11.5" fill="#8a8a8a" text-anchor="middle">两极直接对撞 · 零和思维</text>
+  <line x1="222" y1="148" x2="240" y2="148" stroke="#8a8a8a" stroke-width="2" marker-end="url(#gA)"/>
+  <line x1="240" y1="166" x2="222" y2="166" stroke="#8a8a8a" stroke-width="2" marker-end="url(#gA)"/>
+
+  <rect x="167" y="256" width="128" height="52" rx="4" fill="#f0eeea" stroke="#b9b3a7" stroke-width="1.6" stroke-dasharray="6,4"/>
+  <text x="231" y="278" font-size="15" fill="#8a8a8a" text-anchor="middle">家　庭</text>
+  <text x="231" y="297" font-size="10.5" fill="#a5a09a" text-anchor="middle">被化约为要素供给者</text>
+  <text x="231" y="330" font-size="11.5" fill="#a5a09a" text-anchor="middle">人口再生产不进入分析</text>
+
+  <line x1="200" y1="252" x2="162" y2="188" stroke="#b9b3a7" stroke-width="1.5" marker-end="url(#gA)" stroke-dasharray="5,4"/>
+  <line x1="262" y1="252" x2="300" y2="188" stroke="#b9b3a7" stroke-width="1.5" marker-end="url(#gA)" stroke-dasharray="5,4"/>
+
+  <path d="M 230 368 L 222 380 L 238 380 Z" fill="#8a8a8a"/>
+  <line x1="230" y1="378" x2="170" y2="446" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="230" y1="378" x2="290" y2="446" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <circle cx="170" cy="446" r="8" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="290" cy="446" r="8" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 184 462 Q 230 486 276 462" fill="none" stroke="#8a8a8a" stroke-width="1.3" marker-start="url(#gA)" marker-end="url(#gA)"/>
+  <text x="230" y="512" font-size="12" fill="#5f5f5f" text-anchor="middle">无中间支点：矛盾积累至危机才强制再平衡</text>
+
+  <text x="690" y="78" font-size="19" font-weight="bold" fill="#1a4a7a" text-anchor="middle">三元和合</text>
+  <text x="690" y="100" font-size="12" fill="#8b6914" text-anchor="middle">三方各为独立主体，互为激励与约束</text>
+
+  <line x1="654" y1="188" x2="602" y2="292" stroke="#1a4a7a" stroke-width="1.7" marker-start="url(#bA)" marker-end="url(#bA)"/>
+  <line x1="726" y1="188" x2="778" y2="292" stroke="#1a4a7a" stroke-width="1.7" marker-start="url(#bA)" marker-end="url(#bA)"/>
+  <line x1="648" y1="324" x2="732" y2="324" stroke="#1a4a7a" stroke-width="1.7" marker-start="url(#bA)" marker-end="url(#bA)"/>
+  <text x="590" y="242" font-size="11.5" fill="#1a4a7a" text-anchor="middle">官民</text>
+  <text x="790" y="242" font-size="11.5" fill="#1a4a7a" text-anchor="middle">政企</text>
+  <text x="690" y="344" font-size="11.5" fill="#1a4a7a" text-anchor="middle">劳资 · 供求</text>
+
+  <circle cx="690" cy="250" r="34" fill="#ffffff" stroke="#8b6914" stroke-width="1.7"/>
+  <text x="690" y="246" font-size="12.5" font-weight="bold" fill="#8b6914" text-anchor="middle">动态均衡</text>
+  <text x="690" y="264" font-size="10.5" fill="#8b6914" text-anchor="middle">致中和</text>
+
+  <rect x="626" y="130" width="128" height="56" rx="4" fill="#ffffff" stroke="#1a4a7a" stroke-width="2"/>
+  <text x="690" y="153" font-size="15" font-weight="bold" fill="#1a4a7a" text-anchor="middle">政　府</text>
+  <text x="690" y="173" font-size="10.5" fill="#6b6b6b" text-anchor="middle">公共产品生产 · 权力</text>
+
+  <rect x="516" y="296" width="128" height="56" rx="4" fill="#ffffff" stroke="#1a4a7a" stroke-width="2"/>
+  <text x="580" y="319" font-size="15" font-weight="bold" fill="#1a4a7a" text-anchor="middle">家　庭</text>
+  <text x="580" y="339" font-size="10.5" fill="#6b6b6b" text-anchor="middle">人口再生产 · 权利</text>
+
+  <rect x="736" y="296" width="128" height="56" rx="4" fill="#ffffff" stroke="#1a4a7a" stroke-width="2"/>
+  <text x="800" y="319" font-size="15" font-weight="bold" fill="#1a4a7a" text-anchor="middle">企　业</text>
+  <text x="800" y="339" font-size="10.5" fill="#6b6b6b" text-anchor="middle">产品生产 · 权利</text>
+
+  <text x="690" y="400" font-size="12" fill="#1a4a7a" text-anchor="middle">中间支点：三方互为成本—收益来源</text>
+  <text x="690" y="424" font-size="12" fill="#1a4a7a" text-anchor="middle">纠偏联盟：一方越界，另两方有能力且有激励制衡</text>
+  <text x="690" y="448" font-size="12" fill="#8b6914" text-anchor="middle">条件不满足时，三元亦可退化为左侧形态</text>
+
+  <path d="M 566 470 Q 460 500 344 470" fill="none" stroke="#8b6914" stroke-width="1.2" stroke-dasharray="6,4" marker-end="url(#gA)"/>
+  <text x="455" y="500" font-size="11" fill="#8b6914" text-anchor="middle">第三方被俘获 · 合谋 · 寻租</text>
+
+  <text x="460" y="560" font-size="15" font-weight="bold" fill="#1a4a7a" text-anchor="middle">图1　同一组分析单位下的两种结构：二元化坍缩与三元和合</text>
+  <text x="460" y="584" font-size="11.5" fill="#6b6b6b" text-anchor="middle">"三"是允许第三方调节与联盟重组的最小结构；但三元并不自动优于二元——</text>
+  <text x="460" y="602" font-size="11.5" fill="#6b6b6b" text-anchor="middle">唯当第三方保有独立性、边界可识别、存在纠偏规则时，其调节与创新空间才成立。</text>
+</svg>
