@@ -1,0 +1,38 @@
+<svg viewBox="0 0 820 432" xmlns="http://www.w3.org/2000/svg" font-family="&quot;Noto Serif SC&quot;, &quot;Noto Serif CJK SC&quot;, &quot;Source Han Serif SC&quot;, &quot;Songti SC&quot;, &quot;SimSun&quot;, Georgia, serif" style="background:#faf9f7">
+  <defs>
+    <marker id="rd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a3324"/></marker>
+    <marker id="bu" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a4a7a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="820" height="432" fill="#faf9f7"/>
+
+  <!-- 中轴线(零线) -->
+  <line x1="120" y1="210" x2="700" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="112" y="214" font-size="12" fill="#8a8a8a" text-anchor="end">0</text>
+
+  <!-- 经常账户:下方(逆差,红) -->
+  <rect x="200" y="210" width="140" height="110" fill="#f4e4e0" stroke="#8a3324" stroke-width="1.8"/>
+  <text x="270" y="268" font-size="15" font-weight="bold" fill="#8a3324" text-anchor="middle">经常账户</text>
+  <text x="270" y="290" font-size="13" fill="#8a3324" text-anchor="middle">逆差（−）</text>
+<text x="270" y="345" font-size="11" fill="#6b6b6b" text-anchor="middle">贸易、收入与转移收支</text>
+
+  <!-- 金融账户:上方(顺差,蓝) -->
+  <rect x="480" y="100" width="140" height="110" fill="#e0e8f0" stroke="#1a4a7a" stroke-width="1.8"/>
+  <text x="550" y="150" font-size="15" font-weight="bold" fill="#1a4a7a" text-anchor="middle">金融账户</text>
+  <text x="550" y="172" font-size="13" fill="#1a4a7a" text-anchor="middle">顺差（＋）</text>
+  <text x="550" y="88" font-size="11" fill="#6b6b6b" text-anchor="middle">净资本流入</text>
+
+  <!-- 恒等对应双箭头 -->
+  <path d="M 345 250 Q 415 210 475 160" fill="none" stroke="#8b6914" stroke-width="1.8" stroke-dasharray="6,4" marker-start="url(#rd)" marker-end="url(#bu)"/>
+  <text x="410" y="230" font-size="12" font-weight="bold" fill="#8b6914" text-anchor="middle">概念上恒等对应</text>
+  <text x="410" y="248" font-size="10" fill="#8b6914" text-anchor="middle">（方向相反）</text>
+
+  <!-- 恒等式 -->
+  <text x="410" y="378" font-size="13" fill="#5f5f5f" text-anchor="middle">经常账户余额 ＋ 资本账户余额 ＋ 金融账户余额 ＋ 统计误差 ≈ 0</text>
+
+  <!-- 图题与说明 -->
+  <text x="410" y="34" font-size="15" font-weight="bold" fill="#1a4a7a" text-anchor="middle">图3-1　国际收支恒等关系示意图</text>
+  <text x="410" y="399" font-size="9.5" fill="#8a8a8a" text-anchor="middle">示意图，不含具体年度数字；实际统计含资本账户与统计误差，两组独立估计不会年年精确镜像。</text>
+  <text x="410" y="413" font-size="9.5" fill="#8a8a8a" text-anchor="middle">采用"资本净流入记正"传统口径；不同机构符号约定或不同，用实际数据须按相应口径转换。</text>
+</svg>
