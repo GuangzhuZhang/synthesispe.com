@@ -15,7 +15,7 @@
   <rect x="200" y="210" width="140" height="110" fill="#f4e4e0" stroke="#8a3324" stroke-width="1.8"/>
   <text x="270" y="268" font-size="15" font-weight="bold" fill="#8a3324" text-anchor="middle">经常账户</text>
   <text x="270" y="290" font-size="13" fill="#8a3324" text-anchor="middle">逆差（−）</text>
-<text x="270" y="345" font-size="11" fill="#6b6b6b" text-anchor="middle">贸易、收入与转移收支</text>
+  <text x="270" y="345" font-size="11" fill="#6b6b6b" text-anchor="middle">净进口商品与服务</text>
 
   <!-- 金融账户:上方(顺差,蓝) -->
   <rect x="480" y="100" width="140" height="110" fill="#e0e8f0" stroke="#1a4a7a" stroke-width="1.8"/>

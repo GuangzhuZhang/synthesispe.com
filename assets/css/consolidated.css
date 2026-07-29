@@ -1,0 +1,18 @@
+.contents-page{max-width:1040px;margin:0 auto;padding:4rem 2rem 6rem}
+.contents-hero{max-width:760px;margin-bottom:3.5rem}
+.contents-hero h1{font-family:var(--serif);font-size:clamp(34px,5vw,54px);font-weight:400;line-height:1.15;margin:.8rem 0 1rem}
+.contents-hero p{color:var(--ink2);font-size:17px;line-height:1.9}
+.contents-group{display:grid;grid-template-columns:minmax(210px,280px) 1fr;gap:2rem;padding:2.2rem 0;border-top:1px solid var(--border2);scroll-margin-top:90px}
+.contents-group-head>span{font-size:11px;letter-spacing:.12em;color:var(--accent)}
+.contents-group-head h2{font-family:var(--serif);font-weight:400;font-size:25px;margin:.35rem 0 .7rem}
+.contents-group-head p{color:var(--ink3);line-height:1.75;font-size:14px}
+.contents-list{background:#fff;border:1px solid var(--border2);border-radius:4px}
+.contents-item{display:grid;grid-template-columns:72px 1fr auto;gap:1rem;align-items:center;padding:1rem 1.15rem;border-bottom:1px solid var(--border2);text-decoration:none;color:var(--ink)}
+.contents-item:last-child{border-bottom:0}.contents-item:hover{background:var(--accent2)}
+.contents-code{font-size:11px;color:var(--accent);letter-spacing:.05em}.contents-name{font-family:var(--serif);font-size:16px}.contents-arrow{font-size:12px;color:var(--ink3)}
+.contents-note{margin-top:2.5rem;padding:1.25rem 1.5rem;background:var(--accent2);border-left:3px solid var(--accent)}.contents-note p{margin:.35rem 0 0;color:var(--ink2)}
+.reading-navigation{display:grid;grid-template-columns:1fr auto 1fr;gap:.8rem;align-items:stretch;margin:2.5rem 0 1rem;padding-top:1.2rem;border-top:1px solid var(--border2)}
+.reading-navigation a{display:flex;flex-direction:column;justify-content:center;padding:.75rem .9rem;color:var(--ink2);text-decoration:none;background:var(--bg2);border:1px solid var(--border2);border-radius:3px;font-size:13px;line-height:1.45}
+.reading-navigation a:hover{border-color:var(--accent);color:var(--accent)}.reading-navigation span{font-size:10px;color:var(--ink4);margin-bottom:.2rem}
+.reading-navigation .reading-home{align-items:center;text-align:center;color:var(--accent);min-width:72px}.reading-navigation .reading-next{text-align:right;align-items:flex-end}
+@media(max-width:720px){.contents-page{padding:2.5rem 1.2rem 4rem}.contents-group{grid-template-columns:1fr;gap:1rem}.contents-item{grid-template-columns:58px 1fr}.contents-arrow{display:none}.reading-navigation{grid-template-columns:1fr 64px 1fr}.reading-navigation a{font-size:11px;padding:.65rem .55rem}}
