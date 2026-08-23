@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-08-23",
+  "scope": "Chinese applied research display numbering and canonical URLs",
+  "articles": [
+    {
+      "displayId": "A-1",
+      "title": "AI灾难：当生产力碾压生命力",
+      "url": "/applied/a1/",
+      "status": "published-existing-url-preserved"
+    },
+    {
+      "displayId": "A-2",
+      "title": "AGI奇点之后，人类的位置在哪里？",
+      "url": "/applied/a2/",
+      "status": "published-existing-url-preserved"
+    },
+    {
+      "displayId": "A-3",
+      "title": "按需分配：AI时代财富分配机制重构",
+      "url": "/applied/a3/",
+      "status": "published-existing-url-preserved"
+    },
+    {
+      "displayId": "A-4",
+      "title": "AI革命前景：从和合主义哲学看技术进步与制度创新",
+      "url": "/applied/a4/",
+      "status": "published-existing-url-preserved"
+    },
+    {
+      "displayId": "A-5",
+      "title": "中国崛起的制度与文化之谜",
+      "url": "/applied/a5/",
+      "status": "published-existing-url-preserved"
+    },
+    {
+      "displayId": "A-6",
+      "title": "人形机器人走进千家万户的路有多远？",
+      "url": "/applied/humanoid-robots-households/",
+      "status": "release-candidate-new"
+    },
+    {
+      "displayId": "A-7",
+      "title": "AI革命将怎样影响就业市场和人口结构？",
+      "url": "/applied/ai-employment-population/",
+      "status": "release-candidate-new"
+    }
+  ]
+}
