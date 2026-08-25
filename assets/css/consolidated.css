@@ -16,3 +16,12 @@
 .reading-navigation a:hover{border-color:var(--accent);color:var(--accent)}.reading-navigation span{font-size:10px;color:var(--ink4);margin-bottom:.2rem}
 .reading-navigation .reading-home{align-items:center;text-align:center;color:var(--accent);min-width:72px}.reading-navigation .reading-next{text-align:right;align-items:flex-end}
 @media(max-width:720px){.contents-page{padding:2.5rem 1.2rem 4rem}.contents-group{grid-template-columns:1fr;gap:1rem}.contents-item{grid-template-columns:58px 1fr}.contents-arrow{display:none}.reading-navigation{grid-template-columns:1fr 64px 1fr}.reading-navigation a{font-size:11px;padding:.65rem .55rem}}
+
+
+/* Foundational theory English edition — 2026-08-25 */
+.title-note{margin:0 0 1.5rem;padding:.8rem 1rem;border-left:3px solid #b08742;background:#f8f4e9;font:14px/1.65 Arial,sans-serif;color:#444}
+.article-pager{display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;margin-top:3rem;padding-top:1.2rem;border-top:1px solid #ddd;font-family:Arial,sans-serif}.article-pager a:last-child{text-align:right}
+.toc-level-3{padding-left:.8rem;font-size:.9em}.series-index{max-width:850px;margin:0 auto;padding:4rem 2rem 6rem}.series-index h1{font:500 40px/1.2 Georgia,serif}.series-index>p{font:18px/1.7 Georgia,serif;color:#444}
+.table-scroll{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}.table-scroll table{width:max-content;min-width:100%;max-width:none}
+.article-cards{list-style:none;padding:0;margin:2rem 0}.article-cards li{border-top:1px solid #ddd}.article-cards li:last-child{border-bottom:1px solid #ddd}.article-cards a{display:grid;grid-template-columns:110px 1fr;gap:1rem;padding:1.1rem 0;text-decoration:none}.article-cards span{color:#333}
+@media(max-width:760px){.article-pager{grid-template-columns:1fr}.article-pager a:last-child{text-align:left}.article-cards a{grid-template-columns:1fr;gap:.25rem}.series-index{padding:2.5rem 1.2rem}}
