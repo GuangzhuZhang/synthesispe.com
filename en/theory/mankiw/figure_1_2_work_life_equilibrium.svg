@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Work–Life Equilibrium Curve">
+  <rect width="720" height="360" fill="#fbfaf7"/>
+  <line x1="90" y1="300" x2="640" y2="300" stroke="#222" stroke-width="2"/>
+  <line x1="90" y1="300" x2="90" y2="50" stroke="#222" stroke-width="2"/>
+  <text x="330" y="352" font-size="16" text-anchor="middle">Working time</text>
+  <text x="38" y="178" font-size="16" text-anchor="middle" transform="rotate(-90 38 178)">Wage income / opportunity cost</text>
+  <path d="M110 282 C230 170 380 110 610 82" fill="none" stroke="#2f6fa8" stroke-width="4"/>
+  <path d="M110 292 C230 270 390 188 610 68" fill="none" stroke="#2e9f64" stroke-width="4"/>
+  <circle cx="355" cy="178" r="8" fill="#d94848"/>
+  <line x1="355" y1="178" x2="355" y2="300" stroke="#d94848" stroke-dasharray="6 6"/>
+  <text x="366" y="169" font-size="15" fill="#8b2f2f">Happiness-equilibrium point</text>
+  <text x="430" y="96" font-size="14" fill="#2f6fa8" textLength="240" lengthAdjust="spacingAndGlyphs">Diminishing marginal returns to wages</text>
+  <text x="456" y="224" font-size="15" fill="#2e7a4e">Rising opportunity cost of leisure</text>
+  <text x="355" y="323" font-size="13" text-anchor="middle" fill="#666">Approx. 2.5 weeks</text>
+</svg>
+
