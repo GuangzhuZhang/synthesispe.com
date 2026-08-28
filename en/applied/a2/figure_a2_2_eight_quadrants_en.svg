@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-label="Four Dimensions, Eight Quadrants: Two Layers with and without AI">
+  <rect width="760" height="520" fill="#fbfaf7"/>
+  <text x="380" y="34" font-size="18" text-anchor="middle" font-weight="700">Four Dimensions, Eight Quadrants: Two Layers at the Same Social Position</text>
+  <g transform="translate(85 82)">
+    <rect x="0" y="0" width="250" height="170" rx="8" fill="#fff" stroke="#c8c2b7"/>
+    <line x1="125" y1="18" x2="125" y2="152" stroke="#333"/>
+    <line x1="28" y1="85" x2="222" y2="85" stroke="#333"/>
+    <text x="125" y="-14" font-size="15" text-anchor="middle" fill="#555">Layer without AI: Logic of Human Institutions</text>
+    <text x="170" y="58" font-size="13" text-anchor="middle">Enterprise</text>
+    <text x="76" y="58" font-size="13" text-anchor="middle">Goods Market</text>
+    <text x="78" y="122" font-size="13" text-anchor="middle">Family</text>
+    <text x="174" y="122" font-size="13" text-anchor="middle">Employment Market</text>
+    <ellipse cx="125" cy="85" rx="34" ry="16" fill="#e1f4df" stroke="#53645b"/>
+    <text x="125" y="90" font-size="12" text-anchor="middle">Finance</text>
+  </g>
+  <g transform="translate(425 82)">
+    <rect x="0" y="0" width="250" height="170" rx="8" fill="#f4f1ff" stroke="#8778c8" stroke-width="1.8"/>
+    <line x1="125" y1="18" x2="125" y2="152" stroke="#5d4bb3"/>
+    <line x1="28" y1="85" x2="222" y2="85" stroke="#5d4bb3"/>
+    <text x="125" y="-14" font-size="15" text-anchor="middle" fill="#473799">Layer with AI: Logic of Computing Power and Algorithms</text>
+    <text x="170" y="58" font-size="13" text-anchor="middle">AI Enterprise</text>
+    <text x="76" y="58" font-size="13" text-anchor="middle">Algorithmic Goods Market</text>
+    <text x="78" y="122" font-size="13" text-anchor="middle">Datafied Family</text>
+    <text x="174" y="122" font-size="13" text-anchor="middle">Automated Employment Market</text>
+    <ellipse cx="125" cy="85" rx="36" ry="16" fill="#e7e2ff" stroke="#5d4bb3"/>
+    <text x="125" y="90" font-size="12" text-anchor="middle">Algorithmic Finance</text>
+  </g>
+  <path d="M335 167 C365 145 392 145 425 167" fill="none" stroke="#5d4bb3" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M335 250 C365 284 392 284 425 250" fill="none" stroke="#5d4bb3" stroke-width="3" stroke-dasharray="8 6"/>
+  <rect x="228" y="219" width="304" height="26" rx="13" fill="#fbfaf7" opacity=".92"/>
+  <text x="380" y="237" font-size="14" text-anchor="middle" fill="#473799">AI Penetration Splits Each Quadrant into Two Versions</text>
+  <g transform="translate(105 315)" font-size="14">
+    <rect x="0" y="0" width="550" height="122" rx="8" fill="#fff" stroke="#ddd6ca"/>
+    <text x="24" y="34" fill="#333">Original Three-Dimensional Structure: Four Market–Organization Positions</text>
+    <text x="24" y="66" fill="#333">After AI Adds a Fourth Dimension: Each Position Splits into Versions without and with AI</text>
+    <text x="24" y="98" fill="#473799" font-weight="700">Result: 4 × 2 = 8 Political-Economic Quadrants; the Speed of Power, Informational Advantage, and Distribution of Returns Are Reconfigured</text>
+  </g>
+</svg>

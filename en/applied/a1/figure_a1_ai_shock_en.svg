@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-label="Path of the AI Shock: Severing the Dialectical Circulation of Two Kinds of Production Anticlockwise">
+  <defs>
+    <marker id="redArrowA1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c93f3f"/>
+    </marker>
+    <marker id="blueArrowA1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2f6fa8"/>
+    </marker>
+  </defs>
+  <rect width="760" height="520" fill="#fbfaf7"/>
+  <line x1="70" y1="255" x2="690" y2="255" stroke="#222" stroke-width="2.2"/>
+  <line x1="380" y1="60" x2="380" y2="455" stroke="#222" stroke-width="2.2"/>
+  <text x="515" y="92" font-size="18" font-weight="700">I Enterprise System</text>
+  <text x="108" y="92" font-size="18" font-weight="700">II Goods Market</text>
+  <text x="105" y="430" font-size="18" font-weight="700">III Family System</text>
+  <text x="515" y="430" font-size="18" font-weight="700">IV Employment Market</text>
+  <ellipse cx="380" cy="255" rx="58" ry="25" fill="#e1f4df" stroke="#53645b" stroke-width="1.8"/>
+  <text x="380" y="262" font-size="16" text-anchor="middle" fill="#276143" font-weight="700">Financial Markets</text>
+  <path d="M380 96 C238 96 142 160 142 255 C142 350 238 414 380 414 C522 414 618 350 618 255 C618 160 522 96 380 96" fill="none" stroke="#e58a37" stroke-width="3.4" opacity=".55"/>
+  <text x="570" y="246" font-size="14" fill="#8a5a22">Original Real-Flow Circuit</text>
+
+  <path d="M560 154 C646 210 641 322 552 374" fill="none" stroke="#c93f3f" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#redArrowA1)"/>
+  <path d="M526 386 C432 446 230 430 176 335" fill="none" stroke="#c93f3f" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#redArrowA1)"/>
+  <path d="M164 310 C105 224 150 132 260 112" fill="none" stroke="#c93f3f" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#redArrowA1)"/>
+  <path d="M292 104 C398 66 506 82 560 154" fill="none" stroke="#c93f3f" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#redArrowA1)"/>
+
+  <ellipse cx="510" cy="205" rx="88" ry="36" fill="#dceeff" stroke="#2f6fa8" stroke-width="2.2"/>
+  <text x="510" y="200" font-size="15" text-anchor="middle" fill="#1f557d" font-weight="700">Self-Enclosed Capital Circuit</text>
+  <text x="510" y="221" font-size="12" text-anchor="middle" fill="#1f557d">Profits Return to Computing Power and Model Training</text>
+  <path d="M440 224 C412 192 430 157 478 154 C534 150 570 176 558 212 C548 244 493 252 456 232" fill="none" stroke="#2f6fa8" stroke-width="3" marker-end="url(#blueArrowA1)"/>
+
+  <g font-size="13" fill="#4b4f52">
+    <text x="498" y="132">① AI Substitutes for Labour</text>
+    <text x="540" y="397">② Employment Ruptures; Pay Falls</text>
+    <text x="96" y="392">③ Consumption Downgraded; Life-Reproduction Capacity Obstructed</text>
+    <text x="92" y="126">④ Deficient Effective Demand</text>
+  </g>
+  <text x="380" y="486" font-size="15" text-anchor="middle" fill="#5f6668">The AI shock travels anticlockwise, severing the virtuous circuit between enterprise production and family reproduction</text>
+</svg>
