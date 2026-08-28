@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 1. Binary Collapse and Triadic Hehe</title>
+  <desc id="desc">Comparison of binary collapse and triadic harmonious union over the same units of analysis.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#385d6b"/></marker>
+    <style>
+      text{font-family:Arial,"Noto Sans",sans-serif;fill:#17343e} .h{font-size:28px;font-weight:700}.n{font-size:20px;font-weight:700}.s{font-size:16px}.xs{font-size:14px}.box{fill:#f7fbfc;stroke:#6f98a6;stroke-width:2}.warn{fill:#fff4ef;stroke:#c4765b;stroke-width:2}.good{fill:#eff8f4;stroke:#4d8f78;stroke-width:2}.edge{stroke:#385d6b;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="#fff"/>
+  <text x="300" y="45" text-anchor="middle" class="h">Binary collapse</text>
+  <text x="900" y="45" text-anchor="middle" class="h">Triadic <tspan font-style="italic">hehe</tspan></text>
+  <rect x="85" y="90" width="190" height="90" rx="12" class="warn"/><text x="180" y="127" text-anchor="middle" class="n">Enterprise</text><text x="180" y="153" text-anchor="middle" class="s">commodity production</text>
+  <rect x="325" y="90" width="190" height="90" rx="12" class="warn"/><text x="420" y="127" text-anchor="middle" class="n">Government</text><text x="420" y="153" text-anchor="middle" class="s">public-goods production</text>
+  <path d="M275 135H325" class="edge"/><path d="M325 155H275" class="edge"/>
+  <text x="300" y="215" text-anchor="middle" class="s">two-pole collision · pendulum oscillation</text>
+  <rect x="150" y="260" width="300" height="105" rx="12" class="box"/><text x="300" y="295" text-anchor="middle" class="n">Family</text><text x="300" y="323" text-anchor="middle" class="s">reduced to a passive supplier of factors</text><text x="300" y="347" text-anchor="middle" class="xs">population reproduction excluded from analysis</text>
+  <path d="M300 260V180" stroke="#9b9b9b" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="300" y="410" text-anchor="middle" class="s">No intermediate pivot: contradictions accumulate</text><text x="300" y="433" text-anchor="middle" class="s">until crisis forces rebalancing.</text>
+
+  <rect x="800" y="85" width="200" height="84" rx="12" class="good"/><text x="900" y="120" text-anchor="middle" class="n">Government</text><text x="900" y="147" text-anchor="middle" class="s">public goods · power</text>
+  <rect x="650" y="305" width="200" height="84" rx="12" class="good"/><text x="750" y="340" text-anchor="middle" class="n">Family</text><text x="750" y="367" text-anchor="middle" class="s">population reproduction · rights</text>
+  <rect x="950" y="305" width="200" height="84" rx="12" class="good"/><text x="1050" y="340" text-anchor="middle" class="n">Enterprise</text><text x="1050" y="367" text-anchor="middle" class="s">commodity production · rights</text>
+  <path d="M850 305L888 169" class="edge"/><path d="M912 169L1000 305" class="edge"/><path d="M950 347H850" class="edge"/>
+  <text x="900" y="245" text-anchor="middle" class="s">mutual incentive · mutual constraint</text>
+  <text x="900" y="430" text-anchor="middle" class="s">Intermediate pivot: each party is a source of costs and benefits</text><text x="900" y="454" text-anchor="middle" class="s">Corrective coalition: when one crosses a boundary, the other two</text><text x="900" y="478" text-anchor="middle" class="s">have both the capacity and the incentive to check it.</text>
+  <path d="M930 505C810 575 520 575 370 500" stroke="#a45d52" stroke-width="2.5" fill="none" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <text x="650" y="555" text-anchor="middle" class="s">Degeneration: third party loses independence · captured · collusion · rent-seeking</text>
+  <line x1="60" y1="600" x2="1140" y2="600" stroke="#d7e0e3"/>
+  <text x="600" y="635" text-anchor="middle" class="n">Figure 1. Two Structures over the Same Set of Units of Analysis—</text><text x="600" y="663" text-anchor="middle" class="n">Binary Collapse and Triadic Harmonious Union (<tspan font-style="italic">hehe</tspan>)</text>
+  <text x="600" y="694" text-anchor="middle" class="xs">A triad is not automatically superior to a dyad: its advantages require an independent third party, identifiable boundaries, and corrective rules.</text>
+</svg>
