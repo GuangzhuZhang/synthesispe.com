@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="745.2pt" height="586.8pt" viewBox="0 0 745.2 586.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-29T20:41:18.607280</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 586.8 
+L 745.2 586.8 
+L 745.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 54.216 312.928 
+L 690.984 312.928 
+" clip-path="url(#p4e90968609)" style="fill: none; stroke: #9a9a9a; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 372.6 543.116 
+L 372.6 102.4704 
+" clip-path="url(#p4e90968609)" style="fill: none; stroke: #9a9a9a; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 267.678 441.1756 
+L 477.522 184.6804 
+" clip-path="url(#p4e90968609)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #a8a8a8; stroke-width: 1.3"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8a8a" x="307.476" y="115.094975" transform="rotate(-0 307.476 115.094975)">Supply</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8a8a" x="412.398" y="115.094975" transform="rotate(-0 412.398 115.094975)">Output</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8a8a" x="79.542" y="297.272335" transform="rotate(-0 79.542 297.272335)">Demand</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8a8a" x="79.542" y="334.102415" transform="rotate(-0 79.542 334.102415)">Input</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8a8a" x="665.658" y="297.272335" transform="rotate(-0 665.658 297.272335)">Input</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8a8a" x="665.658" y="334.102415" transform="rotate(-0 665.658 334.102415)">Demand</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8a8a" x="307.476" y="537.983215" transform="rotate(-0 307.476 537.983215)">Output</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8a8a" x="412.398" y="537.983215" transform="rotate(-0 412.398 537.983215)">Supply</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 83.16 220.8528 
+L 300.24 220.8528 
+L 300.24 148.508 
+L 83.16 148.508 
+z
+" clip-path="url(#p4e90968609)" style="fill: #f1f1f1; stroke: #6f6f6f; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 444.96 220.8528 
+L 662.04 220.8528 
+L 662.04 148.508 
+L 444.96 148.508 
+z
+" clip-path="url(#p4e90968609)" style="fill: #dde9f6; stroke: #2077b4; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 83.16 477.348 
+L 300.24 477.348 
+L 300.24 405.0032 
+L 83.16 405.0032 
+z
+" clip-path="url(#p4e90968609)" style="fill: #fbeae8; stroke: #c9372c; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 444.96 477.348 
+L 662.04 477.348 
+L 662.04 405.0032 
+L 444.96 405.0032 
+z
+" clip-path="url(#p4e90968609)" style="fill: #f1f1f1; stroke: #6f6f6f; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 372.6 375.4076 
+C 390.830592 375.4076 408.316959 368.824355 421.207934 357.107749 
+C 434.098909 345.391142 441.342 329.497784 441.342 312.928 
+C 441.342 296.358216 434.098909 280.464858 421.207934 268.748251 
+C 408.316959 257.031645 390.830592 250.4484 372.6 250.4484 
+C 354.369408 250.4484 336.883041 257.031645 323.992066 268.748251 
+C 311.101091 280.464858 303.858 296.358216 303.858 312.928 
+C 303.858 329.497784 311.101091 345.391142 323.992066 357.107749 
+C 336.883041 368.824355 354.369408 375.4076 372.6 375.4076 
+z
+" clip-path="url(#p4e90968609)" style="fill: #f7f7f7; stroke: #9a9a9a; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'" transform="translate(122.988828 21.298844)">Figure A-7-1  The two-sector circular flow: investment goods circulate within,</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'" transform="translate(219.367578 35.856)">consumption goods must land with households</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="191.7" y="175.113987" transform="rotate(-0 191.7 175.113987)">Goods market</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #555555" x="191.7" y="207.170175" transform="rotate(-0 191.7 207.170175)">II · Market</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="553.5" y="175.113987" transform="rotate(-0 553.5 175.113987)">Enterprise system</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #555555" x="553.5" y="207.170175" transform="rotate(-0 553.5 207.170175)">I · Production module</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="191.7" y="431.609188" transform="rotate(-0 191.7 431.609188)">Household system</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #555555" x="191.7" y="463.665375" transform="rotate(-0 191.7 463.665375)">III · Population module</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="553.5" y="431.609188" transform="rotate(-0 553.5 431.609188)">Labour market</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #555555" x="553.5" y="463.665375" transform="rotate(-0 553.5 463.665375)">IV · Market</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="372.6" y="304.125072" transform="rotate(-0 372.6 304.125072)">Financial market</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #555555" x="372.6" y="329.880398" transform="rotate(-0 372.6 329.880398)">saving ↔ investment</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 439.340661 184.6804 
+Q 372.597837 184.6804 308.091081 184.6804 
+" clip-path="url(#p4e90968609)" style="fill: none; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 314.891081 188.0804 
+L 308.091081 184.6804 
+L 314.891081 181.2804 
+z
+" clip-path="url(#p4e90968609)" style="fill: #c0503a; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 191.7 226.143895 
+Q 191.7 313.914853 191.7 399.449743 
+" clip-path="url(#p4e90968609)" style="fill: none; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 195.1 392.649743 
+L 191.7 399.449743 
+L 188.3 392.649743 
+z
+" clip-path="url(#p4e90968609)" style="fill: #c0503a; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 305.859339 441.1756 
+Q 372.602163 441.1756 437.108919 441.1756 
+" clip-path="url(#p4e90968609)" style="fill: none; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 430.308919 437.7756 
+L 437.108919 441.1756 
+L 430.308919 444.5756 
+z
+" clip-path="url(#p4e90968609)" style="fill: #c0503a; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 553.5 401.685145 
+Q 553.5 313.914187 553.5 228.379297 
+" clip-path="url(#p4e90968609)" style="fill: none; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 550.1 235.179297 
+L 553.5 228.379297 
+L 556.9 235.179297 
+z
+" clip-path="url(#p4e90968609)" style="fill: #c0503a; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 486.111106 143.745832 
+Q 553.500427 71.076708 619.369304 142.107164 
+" clip-path="url(#p4e90968609)" style="fill: none; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 617.23859 134.809215 
+L 619.369304 142.107164 
+L 612.252516 139.432966 
+z
+" clip-path="url(#p4e90968609)" style="fill: #c0503a; stroke: #c0503a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c0503a" x="372.6" y="166.92304" transform="rotate(-0 372.6 166.92304)">Output Y</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #c0503a" transform="translate(160.783794 325.886361) rotate(-90)">Final consumption</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #c0503a" transform="translate(172.865419 301.819447) rotate(-90)">goods C</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c0503a" x="372.6" y="423.41824" transform="rotate(-0 372.6 423.41824)">Labour L</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; fill: #c0503a" transform="translate(576.382206 319.577767) rotate(-90)">Hiring of labour</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c0503a" x="553.5" y="95.8936" transform="rotate(-0 553.5 95.8936)">Investment goods I (self-circulating)</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 75.924 382.64208 
+L 307.476 382.64208 
+L 307.476 341.86592 
+L 75.924 341.86592 
+z
+" clip-path="url(#p4e90968609)" style="fill: #ffffff; stroke: #9a9a9a; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 437.724 382.64208 
+L 669.276 382.64208 
+L 669.276 341.86592 
+L 437.724 341.86592 
+z
+" clip-path="url(#p4e90968609)" style="fill: #ffffff; stroke: #9a9a9a; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="191.7" y="357.770848" transform="rotate(-0 191.7 357.770848)">M = dist(D_f, D_h)</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #555555" x="191.7" y="375.780029" transform="rotate(-0 191.7 375.780029)">I↔III mismatch (not formalized)</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="553.5" y="357.916864" transform="rotate(-0 553.5 357.916864)">C ≤ φ w L</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #555555" x="553.5" y="375.780029" transform="rotate(-0 553.5 375.780029)">II↔IV demand constraint</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4e90968609">
+   <rect x="10.8" y="49.856" width="723.6" height="526.144"/>
+  </clipPath>
+ </defs>
+</svg>
