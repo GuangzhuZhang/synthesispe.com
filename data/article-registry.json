@@ -1,49 +1,447 @@
 {
-  "schemaVersion": 1,
-  "frozenAt": "2026-08-23",
-  "scope": "Chinese applied research display numbering and canonical URLs",
+  "schemaVersion": 2,
+  "frozenAt": "2026-08-31",
+  "authority": "display numbering, bilingual titles, permanent URLs, ordering and per-language publication status",
+  "collectionOrder": [
+    "foundational-theory",
+    "mankiw-trilogy",
+    "heheism",
+    "ai-applied",
+    "china-studies"
+  ],
+  "publicationHistoryNote": "formerDisplayId preserves the identity used before the 2026-08-31 information-architecture ruling; permanent URLs are unchanged.",
   "articles": [
     {
+      "id": "T-1.1",
+      "displayId": "T-1.1",
+      "collection": "foundational-theory",
+      "order": 1,
+      "titles": {
+        "zh": "第一篇：研究对象、定义与理论来源",
+        "en": "Article 1: Subject Matter, Definitions, and Theoretical Sources"
+      },
+      "navigationTitles": {
+        "zh": "第一篇：研究对象、定义与理论来源",
+        "en": "Article 1: Subject Matter, Definitions, and Theoretical Sources"
+      },
+      "urls": {
+        "zh": "/theory/article-1/",
+        "en": "/en/theory/article-1/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
+    },
+    {
+      "id": "T-1.2",
+      "displayId": "T-1.2",
+      "collection": "foundational-theory",
+      "order": 2,
+      "titles": {
+        "zh": "第二篇：家庭制度——生命力与生活关系的辩证运动",
+        "en": "Article 2: The Institution of the Family—The Dialectical Movement of Life-Reproduction Capacity and Relations of Life"
+      },
+      "navigationTitles": {
+        "zh": "第二篇：家庭制度——生命力与生活关系的辩证运动",
+        "en": "Article 2: The Institution of the Family—The Dialectical Movement of Life-Reproduction Capacity and Relations of Life"
+      },
+      "urls": {
+        "zh": "/theory/article-2/",
+        "en": "/en/theory/article-2/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
+    },
+    {
+      "id": "T-1.3",
+      "displayId": "T-1.3",
+      "collection": "foundational-theory",
+      "order": 3,
+      "titles": {
+        "zh": "第三篇：企业制度的演进——资本社会化与混合所有制",
+        "en": "Article 3: The Evolution of Enterprise Institutions—Socialization of Capital and Mixed Ownership"
+      },
+      "navigationTitles": {
+        "zh": "第三篇：企业制度的演进——资本社会化与混合所有制",
+        "en": "Article 3: The Evolution of Enterprise Institutions—Socialization of Capital and Mixed Ownership"
+      },
+      "urls": {
+        "zh": "/theory/article-3/",
+        "en": "/en/theory/article-3/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
+    },
+    {
+      "id": "T-1.4",
+      "displayId": "T-1.4",
+      "collection": "foundational-theory",
+      "order": 4,
+      "titles": {
+        "zh": "第四篇：政府的性质、职责与政治体制——三大假说的比较分析",
+        "en": "Article 4: The Nature and Responsibilities of Government and the Political System—A Comparative Analysis of Three Major Hypotheses"
+      },
+      "navigationTitles": {
+        "zh": "第四篇：政府的性质、职责与政治体制——三大假说的比较分析",
+        "en": "Article 4: The Nature and Responsibilities of Government and the Political System—A Comparative Analysis of Three Major Hypotheses"
+      },
+      "urls": {
+        "zh": "/theory/article-4/",
+        "en": "/en/theory/article-4/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
+    },
+    {
+      "id": "T-1.5",
+      "displayId": "T-1.5",
+      "collection": "foundational-theory",
+      "order": 5,
+      "titles": {
+        "zh": "第五篇：“大三权”博弈均衡——合作博弈与非合作博弈的条件与后果",
+        "en": "Article 5: Equilibrium of the Grand Tripartite Game—Conditions and Consequences of Cooperative and Non-Cooperative Games"
+      },
+      "navigationTitles": {
+        "zh": "第五篇：“大三权”博弈均衡——合作博弈与非合作博弈的条件与后果",
+        "en": "Article 5: Equilibrium of the Grand Tripartite Game—Conditions and Consequences of Cooperative and Non-Cooperative Games"
+      },
+      "urls": {
+        "zh": "/theory/article-5/",
+        "en": "/en/theory/article-5/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
+    },
+    {
+      "id": "T-2.1",
+      "displayId": "T-2.1",
+      "collection": "mankiw-trilogy",
+      "order": 1,
+      "titles": {
+        "zh": "曼昆《经济学原理》的三大缺陷·上篇",
+        "en": "Three Major Defects in Mankiw’s Principles of Economics, Part I"
+      },
+      "navigationTitles": {
+        "zh": "曼昆《经济学原理》的三大缺陷·上篇",
+        "en": "Three Major Defects in Mankiw’s Principles of Economics, Part I"
+      },
+      "urls": {
+        "zh": "/theory/mankiw/",
+        "en": "/en/theory/mankiw/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
+    },
+    {
+      "id": "T-2.2",
+      "displayId": "T-2.2",
+      "collection": "mankiw-trilogy",
+      "order": 2,
+      "titles": {
+        "zh": "曼昆《经济学原理》的三大缺陷·中篇",
+        "en": "Three Major Defects in Mankiw’s Principles of Economics, Part II"
+      },
+      "navigationTitles": {
+        "zh": "曼昆《经济学原理》的三大缺陷·中篇",
+        "en": "Three Major Defects in Mankiw’s Principles of Economics, Part II"
+      },
+      "urls": {
+        "zh": "/theory/mankiw-middle/",
+        "en": "/en/theory/mankiw-middle/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
+    },
+    {
+      "id": "T-2.3",
+      "displayId": "T-2.3",
+      "collection": "mankiw-trilogy",
+      "order": 3,
+      "titles": {
+        "zh": "曼昆《经济学原理》的三大缺陷·下篇",
+        "en": "Three Major Defects in Mankiw’s Principles of Economics, Part III"
+      },
+      "navigationTitles": {
+        "zh": "曼昆《经济学原理》的三大缺陷·下篇",
+        "en": "Three Major Defects in Mankiw’s Principles of Economics, Part III"
+      },
+      "urls": {
+        "zh": "/theory/mankiw-lower/",
+        "en": "/en/theory/mankiw-lower/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
+    },
+    {
+      "id": "T-3",
+      "displayId": "T-3",
+      "collection": "heheism",
+      "order": 1,
+      "titles": {
+        "zh": "和合主义：合三为一政治经济学的哲学基础",
+        "en": "Heheism: The Philosophical Foundation of Synthesis Political Economy"
+      },
+      "navigationTitles": {
+        "zh": "和合主义：合三为一政治经济学的哲学基础",
+        "en": "Heheism: The Philosophical Foundation of Synthesis Political Economy"
+      },
+      "urls": {
+        "zh": "/theory/hehe-ism/",
+        "en": "/en/theory/hehe-ism/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
+    },
+    {
+      "id": "A-1",
       "displayId": "A-1",
-      "title": "AI会改写人类文明进步的逻辑吗？——生产力碾压生命力的风险",
-      "url": "/applied/a1/",
-      "status": "published-existing-url-preserved"
+      "collection": "ai-applied",
+      "order": 1,
+      "titles": {
+        "zh": "AI会改写人类文明进步的逻辑吗？——生产力碾压生命力的风险",
+        "en": "Will AI Rewrite the Logic of Civilizational Progress?—The Risk of Productive Forces Overwhelming Life-Reproduction Capacity"
+      },
+      "navigationTitles": {
+        "zh": "AI会改写人类文明进步的逻辑吗？",
+        "en": "Will AI Rewrite the Logic of Civilizational Progress?"
+      },
+      "urls": {
+        "zh": "/applied/a1/",
+        "en": "/en/applied/a1/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
     },
     {
+      "id": "A-2",
       "displayId": "A-2",
-      "title": "AGI奇点之后，人类的位置在哪里？",
-      "url": "/applied/a2/",
-      "status": "published-existing-url-preserved"
+      "collection": "ai-applied",
+      "order": 2,
+      "titles": {
+        "zh": "奇点之后，人类的位置在哪里？",
+        "en": "After the Singularity: Where Is the Place of Human Beings?"
+      },
+      "navigationTitles": {
+        "zh": "奇点之后，人类的位置在哪里？",
+        "en": "After the Singularity: Where Is the Place of Human Beings?"
+      },
+      "urls": {
+        "zh": "/applied/a2/",
+        "en": "/en/applied/a2/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": null
     },
     {
+      "id": "A-3",
       "displayId": "A-3",
-      "title": "按需分配：AI时代的财富分配机制重构",
-      "url": "/applied/a3/",
-      "status": "published-existing-url-preserved"
+      "collection": "ai-applied",
+      "order": 3,
+      "titles": {
+        "zh": "AI将怎样影响就业市场和人口结构？",
+        "en": "How Will AI Affect the Labour Market and Demographic Structure?"
+      },
+      "navigationTitles": {
+        "zh": "AI将怎样影响就业市场和人口结构？",
+        "en": "How Will AI Affect the Labour Market and Demographic Structure?"
+      },
+      "urls": {
+        "zh": "/applied/ai-employment-population/",
+        "en": "/en/applied/ai-employment-population/"
+      },
+      "subtitles": {
+        "zh": "——资本—劳动替代弹性的宏观经济分析",
+        "en": "—A Macroeconomic Analysis of the Capital–Labour Elasticity of Substitution"
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": "A-7"
     },
     {
+      "id": "A-4",
       "displayId": "A-4",
-      "title": "AI革命前景：从和合主义哲学看技术进步与制度创新",
-      "url": "/applied/a4/",
-      "status": "published-existing-url-preserved"
+      "collection": "ai-applied",
+      "order": 4,
+      "titles": {
+        "zh": "人形机器人，走进千家万户的路有多远？",
+        "en": "How Far Are Humanoid Robots from Entering Ordinary Households?"
+      },
+      "navigationTitles": {
+        "zh": "人形机器人，走进千家万户的路有多远？",
+        "en": "How Far Are Humanoid Robots from Entering Ordinary Households?"
+      },
+      "urls": {
+        "zh": "/applied/humanoid-robots-households/",
+        "en": "/en/applied/humanoid-robots-households/"
+      },
+      "subtitles": {
+        "zh": "——家庭消费吸收对投资扩张的弹性与阈值约束",
+        "en": "—The Elasticity of Household Consumption Absorption with Respect to Investment Expansion, and Its Threshold Constraints"
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": "A-6"
     },
     {
+      "id": "A-5",
       "displayId": "A-5",
-      "title": "中国崛起的制度与文化之谜",
-      "url": "/applied/a5/",
-      "status": "published-existing-url-preserved"
+      "collection": "ai-applied",
+      "order": 5,
+      "titles": {
+        "zh": "按需分配：AI时代的财富分配机制重构",
+        "en": "Distribution According to Need: Restructuring the Mechanism of Wealth Distribution in the AI Era"
+      },
+      "navigationTitles": {
+        "zh": "按需分配：AI时代的财富分配机制重构",
+        "en": "Distribution According to Need: Restructuring the Mechanism of Wealth Distribution in the AI Era"
+      },
+      "urls": {
+        "zh": "/applied/a3/",
+        "en": "/en/applied/a3/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": "A-3"
     },
     {
+      "id": "A-6",
       "displayId": "A-6",
-      "title": "人形机器人走进千家万户的路有多远？",
-      "url": "/applied/humanoid-robots-households/",
-      "status": "published-new"
+      "collection": "ai-applied",
+      "order": 6,
+      "titles": {
+        "zh": "AI革命前景：从和合主义哲学看技术进步与制度创新",
+        "en": "Prospects for the AI Revolution: Technological Progress and Institutional Innovation from the Philosophical Perspective of Heheism"
+      },
+      "navigationTitles": {
+        "zh": "AI革命前景：从和合主义哲学看技术进步与制度创新",
+        "en": "Prospects for the AI Revolution: Technological Progress and Institutional Innovation from the Philosophical Perspective of Heheism"
+      },
+      "urls": {
+        "zh": "/applied/a4/",
+        "en": "/en/applied/a4/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": "A-4"
     },
     {
-      "displayId": "A-7",
-      "title": "AI革命将怎样影响就业市场和人口结构？",
-      "url": "/applied/ai-employment-population/",
-      "status": "published-new"
+      "id": "C-1",
+      "displayId": "C-1",
+      "collection": "china-studies",
+      "order": 1,
+      "titles": {
+        "zh": "中国崛起的制度与文化之谜",
+        "en": "The Institutional and Cultural Puzzle of China’s Rise"
+      },
+      "navigationTitles": {
+        "zh": "中国崛起的制度与文化之谜",
+        "en": "The Institutional and Cultural Puzzle of China’s Rise"
+      },
+      "urls": {
+        "zh": "/applied/a5/",
+        "en": "/en/applied/a5/"
+      },
+      "subtitles": {
+        "zh": null,
+        "en": null
+      },
+      "status": {
+        "zh": "published",
+        "en": "published"
+      },
+      "formerDisplayId": "A-5"
     }
   ]
 }
