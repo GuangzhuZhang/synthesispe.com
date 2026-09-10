@@ -368,20 +368,20 @@
       "collection": "ai-applied",
       "order": 5,
       "titles": {
-        "zh": "按需分配：AI时代的财富分配机制重构",
-        "en": "Distribution According to Need: Restructuring the Mechanism of Wealth Distribution in the AI Era"
+        "zh": "按“需”分配：AI时代的财富分配机制重构",
+        "en": "Distribution According to “Need”: Restructuring the Mechanism of Wealth Distribution in the AI Era"
       },
       "navigationTitles": {
-        "zh": "按需分配：AI时代的财富分配机制重构",
-        "en": "Distribution According to Need: Restructuring the Mechanism of Wealth Distribution in the AI Era"
+        "zh": "按“需”分配：AI时代的财富分配机制重构",
+        "en": "Distribution According to “Need”: Restructuring the Mechanism of Wealth Distribution in the AI Era"
       },
       "urls": {
-        "zh": "/applied/a3/",
-        "en": "/en/applied/a3/"
+        "zh": "/applied/distribution-according-to-need/",
+        "en": "/en/applied/distribution-according-to-need/"
       },
       "subtitles": {
-        "zh": null,
-        "en": null
+        "zh": "社会财富分配机制的历史演变与制度重建路径",
+        "en": "The Historical Evolution of Social Wealth-Distribution Mechanisms and Paths of Institutional Reconstruction"
       },
       "status": {
         "zh": "published",
@@ -403,8 +403,8 @@
         "en": "Prospects for the AI Revolution: Technological Progress and Institutional Innovation from the Philosophical Perspective of Heheism"
       },
       "urls": {
-        "zh": "/applied/a4/",
-        "en": "/en/applied/a4/"
+        "zh": "/applied/ai-revolution-heheism/",
+        "en": "/en/applied/ai-revolution-heheism/"
       },
       "subtitles": {
         "zh": null,
@@ -430,8 +430,8 @@
         "en": "The Institutional and Cultural Puzzle of China’s Rise"
       },
       "urls": {
-        "zh": "/applied/a5/",
-        "en": "/en/applied/a5/"
+        "zh": "/applied/china-rise-institutions-culture/",
+        "en": "/en/applied/china-rise-institutions-culture/"
       },
       "subtitles": {
         "zh": null,
