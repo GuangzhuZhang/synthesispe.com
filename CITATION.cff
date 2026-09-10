@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the versioned Zenodo record."
+title: "How Far Are Humanoid Robots from Entering Ordinary Households?"
+type: article
+authors:
+  - family-names: Zhang
+    given-names: Guangzhu
+    orcid: "https://orcid.org/0009-0000-6777-0622"
+version: "2026-09-09"
+date-released: 2026-09-09
+doi: "10.5281/zenodo.22692762"
+license: CC-BY-4.0
+repository-code: "https://github.com/GuangzhuZhang/synthesispe.com"
+url: "https://doi.org/10.5281/zenodo.22692762"
