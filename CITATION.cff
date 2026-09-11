@@ -6,9 +6,9 @@ authors:
   - family-names: Zhang
     given-names: Guangzhu
     orcid: "https://orcid.org/0009-0000-6777-0622"
-version: "2026-09-09"
-date-released: 2026-09-09
-doi: "10.5281/zenodo.22692762"
+version: "2026-09-11"
+date-released: 2026-09-11
+doi: "10.5281/zenodo.22700237"
 license: CC-BY-4.0
 repository-code: "https://github.com/GuangzhuZhang/synthesispe.com"
-url: "https://doi.org/10.5281/zenodo.22692762"
+url: "https://doi.org/10.5281/zenodo.22700237"
