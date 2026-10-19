@@ -18,12 +18,21 @@ for (const article of registry.articles) {
   }
 }
 
-const requiredPages = ['index.html','en/index.html','ai-questions/index.html','en/ai-questions/index.html','ai-questions/full-text/index.html','en/ai-questions/full-text/index.html','flagship-research/index.html','en/flagship-research/index.html'];
+const requiredPages = ['index.html','en/index.html','contents/index.html','en/contents/index.html','ai-questions/index.html','en/ai-questions/index.html','ai-questions/full-text/index.html','en/ai-questions/full-text/index.html','flagship-research/index.html','en/flagship-research/index.html'];
 for (const rel of requiredPages) {
   if (!exists(rel)) { errors.push(`missing required page: ${rel}`); continue; }
   const html = read(rel);
   if (!html.includes('name="viewport"')) errors.push(`missing viewport: ${rel}`);
   if (!html.includes('rel="canonical"') && !['index.html','en/index.html'].includes(rel)) errors.push(`missing canonical: ${rel}`);
+}
+
+for (const rel of fs.readdirSync(root, {recursive:true}).filter(x => x.endsWith('.html'))) {
+  const html = read(rel);
+  if (!html.includes('<div class="nav-links">')) continue;
+  const expectedContentsLink = rel.replaceAll('\\', '/').startsWith('en/')
+    ? '<a href="/en/contents/">Contents</a>'
+    : '<a href="/contents/">总目录</a>';
+  if (!html.includes(expectedContentsLink)) errors.push(`missing visible contents navigation: ${rel}`);
 }
 
 for (const rel of [...requiredPages, ...articlePages]) {
