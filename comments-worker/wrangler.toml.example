@@ -1,0 +1,13 @@
+name = "synthesispe-comments"
+main = "src/worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://synthesispe.com"
+COMMENTS_ENABLED = "false"
+MAX_POSTS_PER_HOUR = "5"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "synthesispe-comments"
+database_id = "REPLACE_AFTER_AUTHOR_CREATES_D1"
