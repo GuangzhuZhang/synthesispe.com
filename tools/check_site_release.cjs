@@ -39,8 +39,11 @@ for (const rel of [...requiredPages, ...articlePages]) {
   }
 }
 
-const productionText = fs.readdirSync(root, {recursive:true}).filter(x=>/\.(html|xml|json|cff)$/.test(x)&&x!=='LOCAL_IMPLEMENTATION_REPORT_20261019.md').map(read).join('\n');
-if (productionText.includes('10.5281/zenodo.22700237')) errors.push('stale A-4 DOI remains in production surfaces');
+const productionFiles = fs.readdirSync(root, {recursive:true}).filter(x=>/\.(html|xml|json|cff)$/.test(x)&&x!=='LOCAL_IMPLEMENTATION_REPORT_20261019.md');
+const productionText = productionFiles.map(read).join('\n');
+for (const rel of productionFiles.filter(x=>!['applied/humanoid-robots-households/index.html','en/applied/humanoid-robots-households/index.html'].includes(x.replaceAll('\\','/')))) {
+  if (read(rel).includes('10.5281/zenodo.22700237')) errors.push(`stale A-4 DOI remains outside correction note: ${rel}`);
+}
 if (!productionText.includes('10.5281/zenodo.22770261')) errors.push('corrected A-4 DOI missing');
 const expectedA4PdfHashes = {
   'assets/pdf/a-4-en.pdf': '248F575C8BC44F8C670034A9DB794F6FC7BD21910B172CA080DB1B105BCD6669',
