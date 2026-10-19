@@ -26,3 +26,14 @@
 .table-scroll{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}.table-scroll table{width:max-content;min-width:100%;max-width:none}
 .article-cards{list-style:none;padding:0;margin:2rem 0}.article-cards li{border-top:1px solid #ddd}.article-cards li:last-child{border-bottom:1px solid #ddd}.article-cards a{display:grid;grid-template-columns:110px 1fr;gap:1rem;padding:1.1rem 0;text-decoration:none}.article-cards span{color:#333}
 @media(max-width:760px){.article-pager{grid-template-columns:1fr}.article-pager a:last-child{text-align:left}.article-cards a{grid-template-columns:1fr;gap:.25rem}.series-index{padding:2.5rem 1.2rem}}
+
+/* Make the complete site index unmistakable in global navigation and on home pages. */
+nav .nav-links a[href="/contents/"],nav .nav-links a[href="/en/contents/"]{padding:.38rem .72rem;border:1px solid var(--accent);border-radius:3px;color:var(--accent);font-weight:600;background:#fff}
+nav .nav-links a[href="/contents/"]:hover,nav .nav-links a[href="/en/contents/"]:hover{background:var(--accent);color:#fff}
+.directory-banner{background:#fff;border-bottom:1px solid #c8d8eb;padding:1rem 2rem}
+.directory-banner-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap;text-align:center}
+.directory-banner strong{font-family:var(--serif);font-size:17px;font-weight:500;color:var(--ink)}
+.directory-banner span{font-size:13px;color:var(--ink3)}
+.directory-banner a{display:inline-block;padding:.55rem 1.1rem;border-radius:3px;background:var(--accent);color:#fff;text-decoration:none;font-size:14px;font-weight:600}
+.directory-banner a:hover{filter:brightness(.9)}
+@media(max-width:760px){nav .nav-links a{font-size:14px}.directory-banner{padding:.9rem 1rem}.directory-banner-inner{display:grid}.directory-banner a{width:100%}}

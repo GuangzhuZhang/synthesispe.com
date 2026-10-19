@@ -26,6 +26,10 @@ for (const rel of requiredPages) {
   if (!html.includes('rel="canonical"') && !['index.html','en/index.html'].includes(rel)) errors.push(`missing canonical: ${rel}`);
 }
 
+for (const [rel, label] of [['index.html', '浏览全站总目录'], ['en/index.html', 'Browse Site Contents']]) {
+  if (!read(rel).includes(label)) errors.push(`missing prominent home-page contents entry: ${rel}`);
+}
+
 for (const rel of fs.readdirSync(root, {recursive:true}).filter(x => x.endsWith('.html'))) {
   const html = read(rel);
   if (!html.includes('<div class="nav-links">')) continue;
