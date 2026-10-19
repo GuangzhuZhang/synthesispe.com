@@ -14,3 +14,8 @@ jobs:
           python-version: '3.12'
       - name: Check registry and rendered-page contract
         run: python tools/check_registry_contract.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check site navigation, metadata, comments and AI source preservation
+        run: node tools/check_site_release.cjs
